@@ -8,7 +8,7 @@ async function bootstrap() {
 	console.log('env is:',process.env.NODE_ENV)
 
 	const app = await NestFactory.create(AppModule);
-	await app.listen(3000);
+	await app.listen(15000);
 	
 	if (process.env.NODE_ENV == 'development') {
 		console.log('hot reload enabled');
