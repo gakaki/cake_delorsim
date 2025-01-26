@@ -1,28 +1,31 @@
 {
   "compilerOptions": {
-    "target": "es2022",
     "module": "commonjs",
+    "target": "es2022",
     "lib": ["es2022", "dom"],
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitAny": true,
     "resolveJsonModule": true,
-    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     },
-    "outDir": "./dist",
     "rootDir": "./src",
-    "sourceMap": true,
-    "incremental": true,
+    "moduleResolution": "node",
     "declaration": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
-    "moduleResolution": "node"
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "noFallthroughCasesInSwitch": false
   },
   "include": ["src/**/*.ts", "src/**/*.spec.ts", "vitest.config.mts"],
   "exclude": ["node_modules", "dist", "**/*.spec.ts"],
@@ -31,6 +34,16 @@
     "experimentalSpecifierResolution": "node"
   },
   "vitest": {
-    "extends": "./vitest.config.mts"
+    "extends": "./vitest.config.mts",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "noFallthroughCasesInSwitch": false
   }
 }

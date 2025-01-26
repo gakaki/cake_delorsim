@@ -1,6 +1,5 @@
 const { RunScriptWebpackPlugin } = require("run-script-webpack-plugin");
 const { rspack } = require("@rspack/core");
-const isProduction = process.env.NODE_ENV === 'production';
 
 /** @type {import('@rspack/cli').Configuration} */
 const config = {
