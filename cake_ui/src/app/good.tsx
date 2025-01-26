@@ -73,12 +73,12 @@ const GoodCard = ({ good, similarGoods }: { good: Good, similarGoods: Good[] }) 
 
 async function fetchGoods(): Promise<Good[]> {
     try {
-      const nodeEnv = process.env.NODE_ENV as string;
-      const url = nodeEnv === 'production' 
-        ? 'https://delosim-server.koyeb.app/goods' 
-        : 'http://localhost:3000/goods';
-      
-      const response = await fetch(url, { 
+      // const nodeEnv = process.env.NODE_ENV as string;
+      // const url = nodeEnv === 'production' 
+      //   ? 'https://delosim-server.koyeb.app/goods' 
+      //   : 'http://localhost:3000/goods';
+        const url = 'https://delosim-server.koyeb.app/goods' 
+        const response = await fetch(url, { 
         // cache: 'no-store', // for SSR use this will never be build success why
         next: { 
           revalidate: 3600 // Regenerate page every hour
