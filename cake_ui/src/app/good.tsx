@@ -11,7 +11,7 @@ const GoodCard = ({ good, similarGoods }: { good: Good, similarGoods: Good[] }) 
     return (
         <div className="bg-white shadow-lg rounded-xl overflow-hidden mb-6 flex flex-col md:flex-row">
           <div className="relative w-full md:w-1/2 lg:w-1/3">
-            <Image 
+            <img 
               src={good.imageUrl} 
               alt={good.name} 
               width={500}
@@ -22,7 +22,7 @@ const GoodCard = ({ good, similarGoods }: { good: Good, similarGoods: Good[] }) 
               {good.brand.name.charAt(0).toUpperCase()}
             </div> */}
              <div className="absolute top-2 right-2">
-                <Image 
+                <img 
                     src="http://mmbiz.qpic.cn/mmbiz_png/7qknZB2OibNSEMP8lbVoSRc8OJPr2fjwDH8UBoOYkjphS8h9NAUe3Riak7XGMNgHznESYkMjpXSJSvwKoA0wiaKog/640?wx_fmt=png&wxfrom=200"
                     alt="Brand Logo" 
                     width={20} 
