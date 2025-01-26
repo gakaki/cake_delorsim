@@ -1,0 +1,1137 @@
+{
+	"code": 0,
+	"msg": "ok",
+	"data": {
+		"shelf": {
+			"goodsDetailDisplay": 0,
+			"templateId": 1,
+			"pageId": 134634360,
+			"recommendGoods": {
+				"goodsList": [],
+				"goodsListStyle": {},
+				"title": ""
+			},
+			"cartLogo": "https://img01.yzcdn.cn/upload_files/2023/10/17/FiHwFH1CTk8oQNS6YJLqlAxpRlyR.png",
+			"showSearchComponent": true,
+			"logoUrl": "",
+			"showOrderPool": false,
+			"showUmp": 0,
+			"shopHeaderConfig": {
+				"showMode": 0,
+				"announcementComponents": [
+					{
+						"announcementMessage": "",
+						"show": 0,
+						"type": "self-take"
+					},
+					{
+						"announcementMessage": "",
+						"show": 0,
+						"type": "take-out"
+					},
+					{
+						"announcementMessage": "“注册文汀WenTinG会员，领100元新人礼券包”",
+						"show": 0,
+						"type": "all"
+					}
+				],
+				"alias": "",
+				"showUmp": 0,
+				"showSearchComponent": true,
+				"umpCoupon": {
+					"addType": 0,
+					"autoType": 0,
+					"autoValue": "",
+					"activities": [],
+					"hideEmptyCoupon": 1,
+					"takeCouponComponentType": [1],
+					"takeCouponPopupStyleType": 1,
+					"customizedPopupImage": "",
+					"show": false
+				},
+				"logoUrl": ""
+			},
+			"umpCoupon": {
+				"addType": 0,
+				"autoType": 0,
+				"autoValue": "",
+				"activities": [],
+				"hideEmptyCoupon": 1,
+				"takeCouponComponentType": [1],
+				"takeCouponPopupStyleType": 1,
+				"customizedPopupImage": "",
+				"show": false
+			},
+			"pickUpWaySupport": [0, 1],
+			"goodsListStyle": {
+				"goodsStyle": "default",
+				"border": "circular",
+				"fill": "fill",
+				"textStyle": "bold",
+				"size": "1:1",
+				"isShowTitle": 1,
+				"isShowSubtitle": 1,
+				"isShowOriginalPrice": 1,
+				"isShowSales": 0,
+				"isShowStock": 0,
+				"showStockCondition": 10,
+				"stepper": "surfaceV2"
+			},
+			"groupStyle": 1,
+			"groupBadge": true,
+			"itemGroupList": [
+				{
+					"customSortGoods": [
+						{
+							"id": 3755214150,
+							"sort": 5
+						},
+						{
+							"id": 3733813714,
+							"sort": 4
+						},
+						{
+							"id": 3733749961,
+							"sort": 3
+						},
+						{
+							"id": 3637026958,
+							"sort": 2
+						},
+						{
+							"id": 3637040611,
+							"sort": 1
+						}
+					],
+					"deliveryTypeList": [1, 2, 3],
+					"groupId": 290614411,
+					"groupItemNum": 0,
+					"groupLevel": 1,
+					"groupTitle": "车厘子季半糖蛋糕",
+					"groupType": 0,
+					"hideItemIdList": [],
+					"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FjAFXJ1pSVY542rXNTkDmx8plHdO.png",
+					"isDelete": 0,
+					"isSelfFetch": true,
+					"isTakeOut": true,
+					"itemSubGroupInfoDTOList": [],
+					"parentGroupId": 290614411,
+					"rootKdtId": 112635425,
+					"shelfDescription": "",
+					"shelfStatus": 1,
+					"showMode": 0,
+					"showModeDetail": "{\"weekList\":[],\"hoursList\":[],\"startTime\":\"\",\"endTime\":\"\"}",
+					"sortType": 0,
+					"sourceKdtId": 112635425,
+					"sourceKdtName": "总部",
+					"title": "车厘子季半糖蛋糕",
+					"type": 1
+				},
+				{
+					"customSortGoods": [
+						{
+							"id": 3729330580,
+							"sort": 5
+						},
+						{
+							"id": 3718428118,
+							"sort": 4
+						},
+						{
+							"id": 3718931473,
+							"sort": 3
+						},
+						{
+							"id": 3718505276,
+							"sort": 2
+						},
+						{
+							"id": 3718440256,
+							"sort": 1
+						}
+					],
+					"deliveryTypeList": [1, 2, 3],
+					"groupId": 329884913,
+					"groupItemNum": 1,
+					"groupLevel": 1,
+					"groupTitle": "圣诞限定半糖蛋糕",
+					"groupType": 0,
+					"hideItemIdList": [],
+					"icon": "https://img01.yzcdn.cn/upload_files/2024/12/16/Fnd11uEjGoUvsWCFs_ZLwGDNecW0.png",
+					"isDelete": 0,
+					"isSelfFetch": true,
+					"isTakeOut": true,
+					"itemSubGroupInfoDTOList": [],
+					"parentGroupId": 329884913,
+					"rootKdtId": 112635425,
+					"shelfDescription": "",
+					"shelfStatus": 1,
+					"showMode": 0,
+					"showModeDetail": "{\"weekList\":[],\"hoursList\":[],\"startTime\":\"\",\"endTime\":\"\"}",
+					"sortType": 0,
+					"sourceKdtId": 112635425,
+					"sourceKdtName": "总部",
+					"title": "圣诞限定半糖蛋糕",
+					"type": 1
+				},
+				{
+					"customSortGoods": [
+						{
+							"id": 3488441856,
+							"sort": 6
+						},
+						{
+							"id": 3488449299,
+							"sort": 5
+						},
+						{
+							"id": 3488506569,
+							"sort": 4
+						},
+						{
+							"id": 3488510929,
+							"sort": 3
+						},
+						{
+							"id": 3488504447,
+							"sort": 2
+						},
+						{
+							"id": 3488505678,
+							"sort": 1
+						}
+					],
+					"deliveryTypeList": [1, 2, 3],
+					"groupId": 287542314,
+					"groupItemNum": 6,
+					"groupLevel": 1,
+					"groupTitle": "草莓限定半糖蛋糕",
+					"groupType": 0,
+					"hideItemIdList": [],
+					"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/Fsjg2nC1STs3Tol6l0VmFC3aBtbw.png",
+					"isDelete": 0,
+					"isSelfFetch": true,
+					"isTakeOut": true,
+					"itemSubGroupInfoDTOList": [],
+					"parentGroupId": 287542314,
+					"rootKdtId": 112635425,
+					"shelfDescription": "",
+					"shelfStatus": 1,
+					"showMode": 0,
+					"showModeDetail": "{\"weekList\":[],\"hoursList\":[],\"startTime\":\"\",\"endTime\":\"\"}",
+					"sortType": 0,
+					"sourceKdtId": 112635425,
+					"sourceKdtName": "总部",
+					"title": "草莓限定半糖蛋糕",
+					"type": 1
+				},
+				{
+					"customSortGoods": [
+						{
+							"id": 2737847910,
+							"sort": 11
+						},
+						{
+							"id": 3586227871,
+							"sort": 10
+						},
+						{
+							"id": 3586243864,
+							"sort": 9
+						},
+						{
+							"id": 3586301128,
+							"sort": 8
+						},
+						{
+							"id": 3586302907,
+							"sort": 7
+						},
+						{
+							"id": 3586303821,
+							"sort": 6
+						},
+						{
+							"id": 3586246588,
+							"sort": 5
+						},
+						{
+							"id": 2884823802,
+							"sort": 4
+						},
+						{
+							"id": 3212844760,
+							"sort": 3
+						},
+						{
+							"id": 3208324622,
+							"sort": 2
+						},
+						{
+							"id": 3061125337,
+							"sort": 1
+						}
+					],
+					"deliveryTypeList": [1, 2, 3],
+					"groupId": 279533415,
+					"groupItemNum": 2,
+					"groupLevel": 1,
+					"groupTitle": "招牌酸奶半糖蛋糕",
+					"groupType": 0,
+					"hideItemIdList": [],
+					"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FlblBkMOlxg7R-8ML0g_RXCWOB1Y.png",
+					"isDelete": 0,
+					"isSelfFetch": true,
+					"isTakeOut": true,
+					"itemSubGroupInfoDTOList": [],
+					"parentGroupId": 279533415,
+					"rootKdtId": 112635425,
+					"shelfDescription": "",
+					"shelfStatus": 1,
+					"showMode": 0,
+					"showModeDetail": "{\"weekList\":[],\"hoursList\":[],\"startTime\":\"\",\"endTime\":\"\"}",
+					"sortType": 0,
+					"sourceKdtId": 112635425,
+					"sourceKdtName": "总部",
+					"title": "招牌酸奶半糖蛋糕",
+					"type": 1
+				},
+				{
+					"deliveryTypeList": [1, 2, 3],
+					"groupId": 279744267,
+					"groupItemNum": 4,
+					"groupLevel": 1,
+					"groupTitle": "文汀经典半糖蛋糕",
+					"groupType": 0,
+					"hideItemIdList": [],
+					"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FjcN9lEeBgXlUqh1iDkdFnkLxWNu.png",
+					"isDelete": 0,
+					"isSelfFetch": true,
+					"isTakeOut": true,
+					"itemSubGroupInfoDTOList": [],
+					"parentGroupId": 279744267,
+					"rootKdtId": 112635425,
+					"shelfDescription": "",
+					"shelfStatus": 1,
+					"showMode": 0,
+					"showModeDetail": "{\"weekList\":[],\"hoursList\":[],\"startTime\":\"\",\"endTime\":\"\"}",
+					"sortType": 1,
+					"sourceKdtId": 112635425,
+					"sourceKdtName": "总部",
+					"title": "文汀经典半糖蛋糕",
+					"type": 1
+				},
+				{
+					"deliveryTypeList": [1, 2, 3],
+					"groupId": 279534688,
+					"groupItemNum": 11,
+					"groupLevel": 1,
+					"groupTitle": "创意系列半糖蛋糕",
+					"groupType": 0,
+					"hideItemIdList": [],
+					"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FmOHtS1HoXbGhmYYiC-9v-q8GyoK.png",
+					"isDelete": 0,
+					"isSelfFetch": true,
+					"isTakeOut": true,
+					"itemSubGroupInfoDTOList": [],
+					"parentGroupId": 279534688,
+					"rootKdtId": 112635425,
+					"shelfDescription": "",
+					"shelfStatus": 1,
+					"showMode": 0,
+					"showModeDetail": "{\"weekList\":[],\"hoursList\":[],\"startTime\":\"\",\"endTime\":\"\"}",
+					"sortType": 1,
+					"sourceKdtId": 112635425,
+					"sourceKdtName": "总部",
+					"title": "创意系列半糖蛋糕",
+					"type": 1
+				},
+				{
+					"customSortGoods": [
+						{
+							"id": 3208314382,
+							"sort": 5
+						},
+						{
+							"id": 3208324622,
+							"sort": 4
+						},
+						{
+							"id": 3208324661,
+							"sort": 3
+						},
+						{
+							"id": 2737843379,
+							"sort": 2
+						},
+						{
+							"id": 3208328764,
+							"sort": 1
+						}
+					],
+					"deliveryTypeList": [1, 2, 3],
+					"groupId": 277634294,
+					"groupItemNum": 10,
+					"groupLevel": 1,
+					"groupTitle": "季节限定半糖蛋糕",
+					"groupType": 0,
+					"hideItemIdList": [],
+					"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FuzuRRGFg82q9X_TbEnkTP6Tz1x7.png",
+					"isDelete": 0,
+					"isSelfFetch": true,
+					"isTakeOut": true,
+					"itemSubGroupInfoDTOList": [],
+					"parentGroupId": 277634294,
+					"rootKdtId": 112635425,
+					"shelfDescription": "",
+					"shelfStatus": 1,
+					"showMode": 0,
+					"showModeDetail": "{\"weekList\":[],\"hoursList\":[],\"startTime\":\"\",\"endTime\":\"\"}",
+					"sortType": 0,
+					"sourceKdtId": 112635425,
+					"sourceKdtName": "总部",
+					"title": "季节限定半糖蛋糕",
+					"type": 1
+				},
+				{
+					"deliveryTypeList": [1, 2, 3],
+					"groupId": 285432381,
+					"groupItemNum": 4,
+					"groupLevel": 1,
+					"groupTitle": "经典三寸半糖蛋糕",
+					"groupType": 0,
+					"hideItemIdList": [],
+					"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FpVZTg_pNKv79j62zSMyCnCG4pJk.png",
+					"isDelete": 0,
+					"isSelfFetch": true,
+					"isTakeOut": true,
+					"parentGroupId": 285432381,
+					"rootKdtId": 112635425,
+					"shelfDescription": "",
+					"shelfStatus": 1,
+					"showMode": 0,
+					"showModeDetail": "{\"weekList\":[],\"hoursList\":[],\"startTime\":\"\",\"endTime\":\"\"}",
+					"sortType": 1,
+					"sourceKdtId": 112635425,
+					"sourceKdtName": "总部",
+					"title": "经典三寸半糖蛋糕",
+					"type": 1
+				},
+				{
+					"adminId": 14067789085,
+					"createdAt": 1721133332000,
+					"deliveryTypeList": [1, 2, 3],
+					"groupId": 260123152,
+					"groupItemNum": 6,
+					"groupLevel": 1,
+					"groupTitle": "WenTinG Flower",
+					"groupType": 0,
+					"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FkMVzK2ZN_JZOJIxlhFBqydQgZV_.png",
+					"id": 720406,
+					"isDelete": 0,
+					"isSelfFetch": true,
+					"isTakeOut": true,
+					"itemSubGroupInfoDTOList": [],
+					"pageId": 13036,
+					"parentGroupId": 260123152,
+					"rootKdtId": 112635425,
+					"shelfDescription": "",
+					"shelfStatus": 1,
+					"showMode": 0,
+					"showModeDetail": "{\"weekList\":[],\"hoursList\":[],\"startTime\":\"\",\"endTime\":\"\"}",
+					"sortType": 0,
+					"sourceKdtId": 112635425,
+					"sourceKdtName": "WenTinG文汀半糖蛋糕（总部）",
+					"tagName": "",
+					"title": "WenTinG Flower",
+					"type": 1
+				},
+				{
+					"adminId": 14067789085,
+					"createdAt": 1721133332000,
+					"deliveryTypeList": [1, 2, 3],
+					"groupId": 254211545,
+					"groupItemNum": 2,
+					"groupLevel": 1,
+					"groupTitle": "加购",
+					"groupType": 0,
+					"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/Fg5l84EhQS2eEZ2HuQBFGjUXWw9G.png",
+					"id": 720407,
+					"isDelete": 0,
+					"isSelfFetch": true,
+					"isTakeOut": true,
+					"itemSubGroupInfoDTOList": [],
+					"pageId": 13036,
+					"parentGroupId": 254211545,
+					"rootKdtId": 112635425,
+					"shelfDescription": "",
+					"shelfStatus": 1,
+					"showMode": 0,
+					"showModeDetail": "{\"weekList\":[],\"hoursList\":[],\"startTime\":\"\",\"endTime\":\"\"}",
+					"sortType": 1,
+					"sourceKdtId": 112635425,
+					"sourceKdtName": "WenTinG文汀半糖蛋糕（总部）",
+					"tagName": "",
+					"title": "加购",
+					"type": 1
+				},
+				{
+					"adminId": 14067789085,
+					"createdAt": 1721133332000,
+					"deliveryTypeList": [1, 2, 3],
+					"groupId": 254213904,
+					"groupItemNum": 2,
+					"groupLevel": 1,
+					"groupTitle": "温馨提示",
+					"groupType": 0,
+					"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FtS55egAGVeIU49nic2B3BKMRVlM.png",
+					"id": 720409,
+					"isDelete": 0,
+					"isSelfFetch": true,
+					"isTakeOut": true,
+					"itemSubGroupInfoDTOList": [],
+					"pageId": 13036,
+					"parentGroupId": 254213904,
+					"rootKdtId": 112635425,
+					"shelfDescription": "",
+					"shelfStatus": 1,
+					"showMode": 0,
+					"showModeDetail": "{\"weekList\":[],\"hoursList\":[],\"startTime\":\"\",\"endTime\":\"\"}",
+					"sortType": 1,
+					"sourceKdtId": 112635425,
+					"sourceKdtName": "WenTinG文汀半糖蛋糕（总部）",
+					"tagName": "",
+					"title": "温馨提示",
+					"type": 1
+				},
+				{
+					"adminId": 14067789085,
+					"createdAt": 1721133332000,
+					"deliveryTypeList": [1, 2, 3],
+					"groupId": 254210878,
+					"groupItemNum": 3,
+					"groupLevel": 1,
+					"groupTitle": "我们承诺",
+					"groupType": 0,
+					"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FpovmmNPrZJXeOZklgDlneAehuJf.png",
+					"id": 720410,
+					"isDelete": 0,
+					"isSelfFetch": true,
+					"isTakeOut": true,
+					"itemSubGroupInfoDTOList": [],
+					"pageId": 13036,
+					"parentGroupId": 254210878,
+					"rootKdtId": 112635425,
+					"shelfDescription": "",
+					"shelfStatus": 1,
+					"showMode": 0,
+					"showModeDetail": "{\"weekList\":[],\"hoursList\":[],\"startTime\":\"\",\"endTime\":\"\"}",
+					"sortType": 1,
+					"sourceKdtId": 112635425,
+					"sourceKdtName": "WenTinG文汀半糖蛋糕（总部）",
+					"tagName": "",
+					"title": "我们承诺",
+					"type": 1
+				}
+			],
+			"isShowAllGroup": false,
+			"groupInnerDynamicItems": [
+				{
+					"data": {
+						"border": "circular",
+						"templateType": 3,
+						"images": [
+							{
+								"id": "1",
+								"url": "https://img01.yzcdn.cn/upload_files/2025/01/20/FvWktzms6AkVctjvvk0VvWVPdEMB.png"
+							}
+						],
+						"indicatorType": 1,
+						"showMode": 0
+					},
+					"type": "order_sheet_ad"
+				}
+			],
+			"orderSheetAd": {
+				"border": "circular",
+				"images": [
+					{
+						"id": "1",
+						"url": "https://img01.yzcdn.cn/upload_files/2025/01/20/FvWktzms6AkVctjvvk0VvWVPdEMB.png"
+					}
+				],
+				"indicatorType": 1,
+				"showMode": 0,
+				"templateType": 3
+			},
+			"groups": {
+				"selfFetch": [
+					{
+						"alias": "364ne70y2wjrq",
+						"children": [],
+						"count": 3,
+						"groupId": 290614411,
+						"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FjAFXJ1pSVY542rXNTkDmx8plHdO.png",
+						"shelfDescription": "",
+						"title": "车厘子季半糖蛋糕",
+						"countSale": 3,
+						"sortType": 0,
+						"prefetchGoodsIds": [
+							3755214150, 3733813714, 3733749961, 3637026958, 3637040611
+						],
+						"hideItemIdList": [],
+						"ceilCountHalf": 2,
+						"skeletonPlaceholder": [1, 2, 3]
+					},
+					{
+						"alias": "1yeeewwaj05iu",
+						"children": [],
+						"count": 6,
+						"groupId": 287542314,
+						"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/Fsjg2nC1STs3Tol6l0VmFC3aBtbw.png",
+						"shelfDescription": "",
+						"title": "草莓限定半糖蛋糕",
+						"countSale": 6,
+						"sortType": 0,
+						"prefetchGoodsIds": [
+							3488441856, 3488449299, 3488506569, 3488510929, 3488504447,
+							3488505678
+						],
+						"hideItemIdList": [],
+						"ceilCountHalf": 3,
+						"skeletonPlaceholder": [1, 2, 3, 4, 5, 6]
+					},
+					{
+						"alias": "2ojisx7t5zpt2",
+						"children": [],
+						"count": 3,
+						"groupId": 279533415,
+						"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FlblBkMOlxg7R-8ML0g_RXCWOB1Y.png",
+						"shelfDescription": "",
+						"title": "招牌酸奶半糖蛋糕",
+						"countSale": 3,
+						"sortType": 0,
+						"prefetchGoodsIds": [
+							2737847910, 3586227871, 3586243864, 3586301128, 3586302907,
+							3586303821, 3586246588, 2884823802, 3212844760, 3208324622,
+							3061125337
+						],
+						"hideItemIdList": [],
+						"ceilCountHalf": 2,
+						"skeletonPlaceholder": [1, 2, 3]
+					},
+					{
+						"alias": "274ijern70t4m",
+						"children": [],
+						"count": 4,
+						"groupId": 279744267,
+						"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FjcN9lEeBgXlUqh1iDkdFnkLxWNu.png",
+						"shelfDescription": "",
+						"title": "文汀经典半糖蛋糕",
+						"countSale": 4,
+						"sortType": 1,
+						"hideItemIdList": [],
+						"ceilCountHalf": 2,
+						"skeletonPlaceholder": [1, 2, 3, 4]
+					},
+					{
+						"alias": "2fs5a86kkp17a",
+						"children": [],
+						"count": 8,
+						"groupId": 279534688,
+						"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FmOHtS1HoXbGhmYYiC-9v-q8GyoK.png",
+						"shelfDescription": "",
+						"title": "创意系列半糖蛋糕",
+						"countSale": 8,
+						"sortType": 1,
+						"hideItemIdList": [],
+						"ceilCountHalf": 4,
+						"skeletonPlaceholder": [1, 2, 3, 4, 5, 6, 7, 8]
+					},
+					{
+						"alias": "2g0u45o2tyliu",
+						"children": [],
+						"count": 1,
+						"groupId": 277634294,
+						"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FuzuRRGFg82q9X_TbEnkTP6Tz1x7.png",
+						"shelfDescription": "",
+						"title": "季节限定半糖蛋糕",
+						"countSale": 1,
+						"sortType": 0,
+						"prefetchGoodsIds": [
+							3208314382, 3208324622, 3208324661, 2737843379, 3208328764
+						],
+						"hideItemIdList": [],
+						"ceilCountHalf": 1,
+						"skeletonPlaceholder": [1]
+					},
+					{
+						"alias": "1ybzssdpmc6o6",
+						"children": [],
+						"count": 3,
+						"groupId": 254211545,
+						"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/Fg5l84EhQS2eEZ2HuQBFGjUXWw9G.png",
+						"shelfDescription": "",
+						"title": "加购",
+						"countSale": 3,
+						"sortType": 1,
+						"hideItemIdList": [],
+						"ceilCountHalf": 2,
+						"skeletonPlaceholder": [1, 2, 3]
+					},
+					{
+						"alias": "273app969jp1y",
+						"children": [],
+						"count": 3,
+						"groupId": 254213904,
+						"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FtS55egAGVeIU49nic2B3BKMRVlM.png",
+						"shelfDescription": "",
+						"title": "温馨提示",
+						"countSale": 3,
+						"sortType": 1,
+						"hideItemIdList": [],
+						"ceilCountHalf": 2,
+						"skeletonPlaceholder": [1, 2, 3]
+					},
+					{
+						"alias": "1yje7gywmv606",
+						"children": [],
+						"count": 3,
+						"groupId": 254210878,
+						"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FpovmmNPrZJXeOZklgDlneAehuJf.png",
+						"shelfDescription": "",
+						"title": "我们承诺",
+						"countSale": 3,
+						"sortType": 1,
+						"hideItemIdList": [],
+						"ceilCountHalf": 2,
+						"skeletonPlaceholder": [1, 2, 3]
+					}
+				],
+				"delivery": [
+					{
+						"alias": "364ne70y2wjrq",
+						"children": [],
+						"count": 3,
+						"groupId": 290614411,
+						"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FjAFXJ1pSVY542rXNTkDmx8plHdO.png",
+						"shelfDescription": "",
+						"title": "车厘子季半糖蛋糕",
+						"countSale": 3,
+						"sortType": 0,
+						"prefetchGoodsIds": [
+							3755214150, 3733813714, 3733749961, 3637026958, 3637040611
+						],
+						"hideItemIdList": [],
+						"ceilCountHalf": 2,
+						"skeletonPlaceholder": [1, 2, 3]
+					},
+					{
+						"alias": "1yeeewwaj05iu",
+						"children": [],
+						"count": 6,
+						"groupId": 287542314,
+						"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/Fsjg2nC1STs3Tol6l0VmFC3aBtbw.png",
+						"shelfDescription": "",
+						"title": "草莓限定半糖蛋糕",
+						"countSale": 6,
+						"sortType": 0,
+						"prefetchGoodsIds": [
+							3488441856, 3488449299, 3488506569, 3488510929, 3488504447,
+							3488505678
+						],
+						"hideItemIdList": [],
+						"ceilCountHalf": 3,
+						"skeletonPlaceholder": [1, 2, 3, 4, 5, 6]
+					},
+					{
+						"alias": "2ojisx7t5zpt2",
+						"children": [],
+						"count": 3,
+						"groupId": 279533415,
+						"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FlblBkMOlxg7R-8ML0g_RXCWOB1Y.png",
+						"shelfDescription": "",
+						"title": "招牌酸奶半糖蛋糕",
+						"countSale": 3,
+						"sortType": 0,
+						"prefetchGoodsIds": [
+							2737847910, 3586227871, 3586243864, 3586301128, 3586302907,
+							3586303821, 3586246588, 2884823802, 3212844760, 3208324622,
+							3061125337
+						],
+						"hideItemIdList": [],
+						"ceilCountHalf": 2,
+						"skeletonPlaceholder": [1, 2, 3]
+					},
+					{
+						"alias": "274ijern70t4m",
+						"children": [],
+						"count": 4,
+						"groupId": 279744267,
+						"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FjcN9lEeBgXlUqh1iDkdFnkLxWNu.png",
+						"shelfDescription": "",
+						"title": "文汀经典半糖蛋糕",
+						"countSale": 4,
+						"sortType": 1,
+						"hideItemIdList": [],
+						"ceilCountHalf": 2,
+						"skeletonPlaceholder": [1, 2, 3, 4]
+					},
+					{
+						"alias": "2fs5a86kkp17a",
+						"children": [],
+						"count": 8,
+						"groupId": 279534688,
+						"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FmOHtS1HoXbGhmYYiC-9v-q8GyoK.png",
+						"shelfDescription": "",
+						"title": "创意系列半糖蛋糕",
+						"countSale": 8,
+						"sortType": 1,
+						"hideItemIdList": [],
+						"ceilCountHalf": 4,
+						"skeletonPlaceholder": [1, 2, 3, 4, 5, 6, 7, 8]
+					},
+					{
+						"alias": "2g0u45o2tyliu",
+						"children": [],
+						"count": 1,
+						"groupId": 277634294,
+						"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FuzuRRGFg82q9X_TbEnkTP6Tz1x7.png",
+						"shelfDescription": "",
+						"title": "季节限定半糖蛋糕",
+						"countSale": 1,
+						"sortType": 0,
+						"prefetchGoodsIds": [
+							3208314382, 3208324622, 3208324661, 2737843379, 3208328764
+						],
+						"hideItemIdList": [],
+						"ceilCountHalf": 1,
+						"skeletonPlaceholder": [1]
+					},
+					{
+						"alias": "1ybzssdpmc6o6",
+						"children": [],
+						"count": 3,
+						"groupId": 254211545,
+						"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/Fg5l84EhQS2eEZ2HuQBFGjUXWw9G.png",
+						"shelfDescription": "",
+						"title": "加购",
+						"countSale": 3,
+						"sortType": 1,
+						"hideItemIdList": [],
+						"ceilCountHalf": 2,
+						"skeletonPlaceholder": [1, 2, 3]
+					},
+					{
+						"alias": "273app969jp1y",
+						"children": [],
+						"count": 3,
+						"groupId": 254213904,
+						"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FtS55egAGVeIU49nic2B3BKMRVlM.png",
+						"shelfDescription": "",
+						"title": "温馨提示",
+						"countSale": 3,
+						"sortType": 1,
+						"hideItemIdList": [],
+						"ceilCountHalf": 2,
+						"skeletonPlaceholder": [1, 2, 3]
+					},
+					{
+						"alias": "1yje7gywmv606",
+						"children": [],
+						"count": 3,
+						"groupId": 254210878,
+						"icon": "https://img01.yzcdn.cn/upload_files/2025/01/23/FpovmmNPrZJXeOZklgDlneAehuJf.png",
+						"shelfDescription": "",
+						"title": "我们承诺",
+						"countSale": 3,
+						"sortType": 1,
+						"hideItemIdList": [],
+						"ceilCountHalf": 2,
+						"skeletonPlaceholder": [1, 2, 3]
+					}
+				],
+				"express": [],
+				"selfFetchRecovery": false,
+				"deliveryRecovery": false,
+				"expressRecovery": false,
+				"selfFetchForceRender": true,
+				"deliveryForceRender": true,
+				"expressForceRender": true
+			},
+			"couponListData": {},
+			"umpGoodsListData": {},
+			"recommendGoodsListData": {},
+			"selfFetchFirstGoodsList": {
+				"list": [
+					{
+						"activityPrice": 19900,
+						"alias": "26zlc3l56fp12ux",
+						"id": 3755214150,
+						"imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/29/FhnyD_Bm79TBTxdhVi6clF3aIg0f.jpg",
+						"price": 19900,
+						"sellPoint": "草莓，车厘子，鲜奶奶油，蜂蜜戚风蛋糕，草莓冻，百里香，糖粉",
+						"title": "蛇年聚宝",
+						"totalStock": 3999580,
+						"startSaleNum": 1,
+						"arriveTimeDesc": "最快21:46送达",
+						"messages": "[]",
+						"totalId": 25763889033,
+						"labelViewModel": {
+							"labelGroupModels": []
+						},
+						"isContainProp": true,
+						"productAttributesDefined": true,
+						"preSale": false,
+						"skuSize": 4,
+						"totalSoldNum": 6889,
+						"basicTags": [],
+						"groupId": 290614411
+					},
+					{
+						"activityPrice": 28900,
+						"alias": "2os62nnxw2tja4c",
+						"id": 3733813714,
+						"imageUrl": "https://img01.yzcdn.cn/upload_files/2024/11/28/FkSinUPl2BjOoKAQyMtjtkG1e3co.jpg",
+						"price": 28900,
+						"sellPoint": "车厘子，草莓冻，巧克力脆珠，巧克力干纳许，糖粉，巧克力奶油，巧克力蛋糕胚",
+						"title": "厘刻发财",
+						"totalStock": 1999866,
+						"startSaleNum": 1,
+						"arriveTimeDesc": "最快21:46送达",
+						"messages": "[]",
+						"totalId": 25757793294,
+						"labelViewModel": {
+							"labelGroupModels": []
+						},
+						"isContainProp": true,
+						"productAttributesDefined": true,
+						"preSale": false,
+						"skuSize": 2,
+						"totalSoldNum": 2061,
+						"basicTags": [],
+						"groupId": 290614411
+					},
+					{
+						"activityPrice": 28900,
+						"alias": "2g39xwr0i1c8mv3",
+						"id": 3733749961,
+						"imageUrl": "https://img01.yzcdn.cn/upload_files/2024/11/28/FtW-WWJwIsyAflr9uq1uMF7ApyZK.jpg",
+						"price": 28900,
+						"sellPoint": "车厘子，草莓冻，开心果奶油，糖粉，巧克力蛋糕胚",
+						"title": "厘刻开心",
+						"totalStock": 1999947,
+						"startSaleNum": 1,
+						"arriveTimeDesc": "最快21:46送达",
+						"messages": "[]",
+						"totalId": 25757798918,
+						"labelViewModel": {
+							"labelGroupModels": []
+						},
+						"isContainProp": true,
+						"productAttributesDefined": true,
+						"preSale": false,
+						"skuSize": 2,
+						"totalSoldNum": 830,
+						"basicTags": [],
+						"groupId": 290614411
+					}
+				],
+				"unavailableList": [],
+				"group": {
+					"290614411": {
+						"count": 3
+					}
+				}
+			},
+			"firstExtraDataCache": {
+				"deliveryTimesMap": {},
+				"activityInfoMap": {
+					"3733749961": {
+						"activityPrice": 28900,
+						"id": 3733749961,
+						"price": 28900,
+						"origin": "",
+						"showStartTag": true
+					},
+					"3733813714": {
+						"activityPrice": 28900,
+						"id": 3733813714,
+						"price": 28900,
+						"origin": "",
+						"showStartTag": true
+					},
+					"3755214150": {
+						"activityPrice": 19900,
+						"id": 3755214150,
+						"price": 19900,
+						"origin": "",
+						"showStartTag": true
+					}
+				},
+				"skuDirectOrderMap": {}
+			},
+			"weappGoodsListStyle": {
+				"DELIVERY": {
+					"goodsListWidth": 339,
+					"width": 80,
+					"height": 80,
+					"skeletonHeight": 80,
+					"imageFill": "aspectFill",
+					"style": "width: 80px; height: 80px;",
+					"listGoodsSize": {
+						"imageFill": "aspectFill",
+						"style": "width: 80px; height: 80px;"
+					},
+					"groupListWidth": 75,
+					"dynamicGoodsSize": {
+						"goodsListWidth": 339,
+						"width": 80,
+						"height": 80,
+						"skeletonHeight": 80,
+						"imageFill": "aspectFit",
+						"style": "width: 80px; height: 80px;",
+						"listGoodsSize": {
+							"imageFill": "aspectFit",
+							"style": "width: 80px; height: 80px;"
+						}
+					},
+					"recommendGoodsSize": {
+						"width": "100%",
+						"height": "104px",
+						"style": "width: 100%; height: 104px;"
+					}
+				},
+				"EXPRESS": {
+					"goodsListWidth": 339,
+					"width": 80,
+					"height": 80,
+					"skeletonHeight": 80,
+					"imageFill": "aspectFill",
+					"style": "width: 80px; height: 80px;",
+					"listGoodsSize": {
+						"imageFill": "aspectFill",
+						"style": "width: 80px; height: 80px;"
+					},
+					"groupListWidth": 75,
+					"dynamicGoodsSize": {
+						"goodsListWidth": 339,
+						"width": 80,
+						"height": 80,
+						"skeletonHeight": 80,
+						"imageFill": "aspectFit",
+						"style": "width: 80px; height: 80px;",
+						"listGoodsSize": {
+							"imageFill": "aspectFit",
+							"style": "width: 80px; height: 80px;"
+						}
+					},
+					"recommendGoodsSize": {
+						"width": "100%",
+						"height": "104px",
+						"style": "width: 100%; height: 104px;"
+					}
+				},
+				"SELF_TAKE": {
+					"goodsListWidth": 339,
+					"width": 80,
+					"height": 80,
+					"skeletonHeight": 80,
+					"imageFill": "aspectFill",
+					"style": "width: 80px; height: 80px;",
+					"listGoodsSize": {
+						"imageFill": "aspectFill",
+						"style": "width: 80px; height: 80px;"
+					},
+					"groupListWidth": 75,
+					"dynamicGoodsSize": {
+						"goodsListWidth": 339,
+						"width": 80,
+						"height": 80,
+						"skeletonHeight": 80,
+						"imageFill": "aspectFit",
+						"style": "width: 80px; height: 80px;",
+						"listGoodsSize": {
+							"imageFill": "aspectFit",
+							"style": "width: 80px; height: 80px;"
+						}
+					},
+					"recommendGoodsSize": {
+						"width": "100%",
+						"height": "104px",
+						"style": "width: 100%; height: 104px;"
+					}
+				},
+				"COMMON": {
+					"goodsListStyleMap": {
+						"list": {
+							"goodsStyle": "default",
+							"border": "circular",
+							"fill": "fill",
+							"textStyle": "bold",
+							"size": "1:1",
+							"isShowTitle": 1,
+							"isShowSubtitle": 1,
+							"isShowOriginalPrice": 1,
+							"isShowSales": 0,
+							"isShowStock": 0,
+							"showStockCondition": 10,
+							"stepper": "surfaceV2"
+						},
+						"dynamic": {},
+						"recommend": {}
+					}
+				}
+			}
+		},
+		"pickUpWaySupport": {
+			"delivery": true,
+			"selfFetch": true
+		},
+		"orderPool": {
+			"available": false
+		},
+		"personalizedShopVisit": {
+			"showOnlineShopSwitch": true,
+			"showUserLocation": false,
+			"enterScene": "0",
+			"onlineShopVisitModel": "1",
+			"visitSecondConfirm": "0"
+		},
+		"cart": {
+			"isShopInPerfWhiteList": true
+		},
+		"extra": {
+			"autoVerify": 0,
+			"cdbSet": 1,
+			"goodsDetailDisplay": 0,
+			"orderSecondConfirm": 0,
+			"retailAutoVerify": 0,
+			"retailMinappShelfOrderSetting": "{\"reserve_contact_name\":\"0\",\"reserve_contact_number\":\"1\",\"contact_number_required\":\"1\"}",
+			"selfRefundConfig": 1
+		},
+		"shopConfigs": {
+			"house_number_required": "0",
+			"goods_detail_sales": "{\"show\":0,\"limit\":false,\"limit_num\":\"\",\"add_up_the_sales_of_three_parties\":\"0\"}"
+		},
+		"displayCarrierConfig": {
+			"carrierSubType": 1001,
+			"carrierType": 1,
+			"scene": {
+				"cartPageSwitch": false,
+				"itemDetailSwitch": true,
+				"readyOrderPageSwitch": true,
+				"shelfOrderPageSwitch": false
+			}
+		},
+		"apollo": {
+			"retail_shelf_order": true
+		},
+		"supportExpress": true,
+		"birthdayRelationEnable": true,
+		"shelfContact": {
+			"mobileNumber": "15021365171",
+			"phone": "15021365171"
+		}
+	}
+}

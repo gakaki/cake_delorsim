@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "commonjs",
+    "lib": ["es2022", "dom"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "incremental": true,
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*.ts", "src/**/*.spec.ts", "vitest.config.mts"],
+  "exclude": ["node_modules", "dist", "**/*.spec.ts"],
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  },
+  "vitest": {
+    "extends": "./vitest.config.mts"
+  }
+}
