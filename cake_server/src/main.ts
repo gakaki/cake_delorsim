@@ -11,7 +11,7 @@ async function bootstrap() {
 	await app.listen(3000);
 	
 	if (process.env.NODE_ENV == 'development') {
-		console.log('hot reload enabled');
+		console.log('just wait for log after 2 seconds , hot reload enabled');
 		if (module.hot ){
 			module.hot.accept();
 			module.hot.dispose(() => app.close());
