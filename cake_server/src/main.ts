@@ -5,7 +5,7 @@ import { AppModule } from "./app.module";
 
 async function bootstrap() {
 
-	console.log('current env is:',process.env.NODE_ENV)
+	console.log('env is:',process.env.NODE_ENV)
 
 	const app = await NestFactory.create(AppModule);
 	await app.listen(3000);
