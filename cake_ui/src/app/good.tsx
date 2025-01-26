@@ -115,10 +115,12 @@ export default async function GoodsList() {
     const findCrossBrandSimilarGoods = (currentGood: Good, otherBrandGoods: Good[]): Good[] => {
     return otherBrandGoods
         .filter(good => 
-            good.id !== currentGood.id &&  good.brand.name !== currentGood.brand.name &&
+            good.id !== currentGood.id 
+            // &&  
+            // good.brand.name !== currentGood.brand.name &&
             // Add similarity criteria here, e.g., similar price range or category
-            Math.abs(parseFloat(good.price) - parseFloat(currentGood.price)) < 50 &&
-            good.category.name === currentGood.category.name
+            // Math.abs(parseFloat(good.price) - parseFloat(currentGood.price)) < 50 &&
+            // good.category.name === currentGood.category.name
         )
         .slice(0, 2);
     };
