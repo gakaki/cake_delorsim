@@ -6,14 +6,6 @@ const formatPrice = (price: string): string => {
   return `¥${intPrice}`;
 };
 
-const findSimilarGoods = (currentGood: Good, allGoods: Good[]): Good[] => {
-  return allGoods
-    .filter(good => 
-      good.id !== currentGood.id && 
-      good.brand.name !== currentGood.brand.name
-    )
-    .slice(0, 2);
-};
 
 const GoodCard = ({ good, similarGoods }: { good: Good, similarGoods: Good[] }) => {
     return (
@@ -81,8 +73,16 @@ const GoodCard = ({ good, similarGoods }: { good: Good, similarGoods: Good[] }) 
 
 async function fetchGoods(): Promise<Good[]> {
     try {
-      const response = await fetch('http://localhost:3000/goods', { 
-        cache: 'no-store' // for SSR
+      const nodeEnv = process.env.NODE_ENV as string;
+      const url = nodeEnv === 'production' 
+        ? 'https://delosim-server.koyeb.app/goods' 
+        : 'http://localhost:3000/goods';
+      
+      const response = await fetch(url, { 
+        // cache: 'no-store', // for SSR use this will never be build success why
+        next: { 
+          revalidate: 3600 // Regenerate page every hour
+        }
       });
       const data: GoodsResponse = await response.json();
       
@@ -115,7 +115,7 @@ export default async function GoodsList() {
     const findCrossBrandSimilarGoods = (currentGood: Good, otherBrandGoods: Good[]): Good[] => {
     return otherBrandGoods
         .filter(good => 
-            good.id !== currentGood.id && 
+            good.id !== currentGood.id &&  good.brand.name !== currentGood.brand.name &&
             // Add similarity criteria here, e.g., similar price range or category
             Math.abs(parseFloat(good.price) - parseFloat(currentGood.price)) < 50 &&
             good.category.name === currentGood.category.name
@@ -123,6 +123,7 @@ export default async function GoodsList() {
         .slice(0, 2);
     };
 
+    
   return (
     <div className="container mx-auto px-1 py-1">
       <h1 className="text-3xl font-bold mb-6 text-center">WenTinG文汀 vs 德罗心</h1>
@@ -130,7 +131,7 @@ export default async function GoodsList() {
         <GoodCard 
           key={good.id} 
           good={good} 
-          similarGoods={findSimilarGoods(good, deluoxinGoods)} 
+          similarGoods={findCrossBrandSimilarGoods(good, deluoxinGoods)} 
         />
       ))}
     </div>
