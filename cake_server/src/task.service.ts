@@ -37,9 +37,6 @@ export class TaskService {
           name: brand.name,
           appId: brand.appId,
           kdtId: brand.kdtId,
-          itemGroups: shelfConfig.data.shelf.itemGroupList,
-          shelfConfig: shelfConfig.data.shelf,
-          originalJson: shelfConfig,
         });
 
         await this.brandRepository.save(brandEntity);
@@ -143,7 +140,7 @@ export class TaskService {
       description: good.sellPoint,
       imageUrl: good.imageUrl,
       price: good.price / 100,  // Assuming price is in cents
-      url: null,
+      url: "",
       originalJson: good,
     }));
 

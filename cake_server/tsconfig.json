@@ -25,9 +25,10 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": false,
     "strictBindCallApply": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "strictPropertyInitialization": false
   },
-  "include": ["src/**/*.ts", "src/**/*.spec.ts", "vitest.config.mts"],
+  "include": ["src/**/*.ts", "src/**/*.spec.ts"],
   "exclude": ["node_modules", "dist", "**/*.spec.ts"],
   "ts-node": {
     "esm": true,

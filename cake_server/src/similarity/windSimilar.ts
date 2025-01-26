@@ -1,7 +1,4 @@
-import { load, cut } from '@node-rs/jieba';
-
-// 加载分词词典
-load();
+import jiebar from "./myjieba"
 
 export interface SimilarityOptions {
   threshold?: number;
@@ -28,7 +25,7 @@ export class WindSimilarity {
       minTokenLength = 1 
     } = options;
 
-    let tokens = cut(text);
+    let tokens = jiebar.cut(text);
 
     if (ignoreCase) {
       tokens = tokens.map(token => token.toLowerCase());

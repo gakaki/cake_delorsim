@@ -14,6 +14,10 @@ const config = {
   module: {
     rules: [
       {
+        test: /\.node$/,
+        loader: "node-loader",
+      },
+      {
         test: /\.ts$/,
         use: {
           loader: "builtin:swc-loader",

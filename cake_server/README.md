@@ -1547,3 +1547,74 @@ pnpm i @node-rs/jieba --save
  对 good 的 商品描述description进行相似度比较.然后对 good的商品标题 name 进行相似度比较..
  得到的排序score数据和对应的good保存下来.. 
 4 循环结束后,把排序好的goods 插入到good的 similarity数组中 返回
+
+
+
+
+
+### 常见报错
+
+
+
+WARNING in ./src/task.service.ts
+  ⚠ ESModulesLinkingWarning: export 'Cache' (imported as 'Cache') was not found in 'cache-manager' (possible exports: KeyvAdapter, createCache)
+     ╭─[532:48]
+ 530 │         typeof Repository === "undefined" ? Object : Repository,
+ 531 │         typeof Repository === "undefined" ? Object : Repository,
+ 532 │         typeof Cache === "undefined" ? Object : Cache
+     ·                                                 ─────
+ 533 │     ])
+ 534 │ ], TaskService);
+     ╰────
+
+
+ERROR in ./node_modules/.pnpm/@node-rs+jieba-darwin-arm64@2.0.1/node_modules/@node-rs/jieba-darwin-arm64/jieba.darwin-arm64.node
+  × Module parse failed:
+  ╰─▶   × JavaScript parsing error: Unexpected character '�'
+         ╭─[1:0]
+       1 │ ����
+               ���__TEXT�__text__TEXTX5��X5�__stubs__TEXT�
+                                                          __stub_helper__TEXT\d\�__const__TEXT��a�__gcc_except_tab__TEXT�e��__cstring__TEXT��*
+                                                                                                                                              ��__unwind_info__TEXT���A��__eh_frame__TEXT�3H��3
+                   h8__DATA_CONST����__got__DATA_CONST�0�q__mod_init_func__DATA_CONST0�00� __const__DATA_CONST���T��x__DATA@(�@(@__la_symbol_ptr__DATA@(�@(w__data__DATA�C(P�/Users/runner/work/node-rs/node-rs/target/aarch64-apple-darwin/release/deps/libnode_rs_jieba.dylib"�0�(xx�(x��(�H__LINKEDIT�+��(H�
+         · ▲
+       2 │ ��((��(y�(H
+                     Pwp�(�ԥ���>D����,<x2 
+
+                                          *
+                                           8/usr/lib/libiconv.2.dylib
+                                                                     8xA/usr/lib/libSystem.B.dylib&��(
+                                                                                                      )��(`�(�Q����o��g��_��W��O��{��C���������t9��R!�RO��,�����3�   @�  QP��t99�R��R!�RB���*����@��R@P��������R�������;��������
+                                                    ��c��"��#@���   ��  �!T����'@���������V�   ��  � T@@�`��X�h��@���'@������R�B��8�������L��@4�t9u�R`�R!�R
+                                                                                                                                                           ������HN�R(,�r      �)�=�� @���t9`�R!�R��� #����@����A��j�V8(
+         ╰────
+      
+  help: 
+        You may need an appropriate loader to handle this file type.
+
+
+Rspack compiled with 1 error and 72 warnings in 797 ms
+[HMR] Waiting for update signal from WDS...
+/Users/g/Desktop/work/cake/cake_server/dist/main.js:17987
+__webpack_require__(/*! . */ "./node_modules/.pnpm/@node-rs+jieba@2.0.1/node_modules/@node-rs/jieba sync recursive") = createRequire(__filename)
+^
+
+ReferenceError: Invalid left-hand side in assignment
+    at ./node_modules/.pnpm/@node-rs+jieba@2.0.1/node_modules/@node-rs/jieba/index.js (/Users/g/Desktop/work/cake/cake_server/dist/main.js:17987:1)
+    at __webpack_require__ (/Users/g/Desktop/work/cake/cake_server/dist/main.js:248404:21)
+    at fn (/Users/g/Desktop/work/cake/cake_server/dist/main.js:248537:10)
+    at ./src/similarity/myjieba.ts (/Users/g/Desktop/work/cake/cake_server/dist/main.js:219338:67)
+    at __webpack_require__ (/Users/g/Desktop/work/cake/cake_server/dist/main.js:248404:21)
+    at fn (/Users/g/Desktop/work/cake/cake_server/dist/main.js:248537:10)
+    at ./src/similarity/similarity.service.ts (/Users/g/Desktop/work/cake/cake_server/dist/main.js:219588:61)
+    at __webpack_require__ (/Users/g/Desktop/work/cake/cake_server/dist/main.js:248404:21)
+    at fn (/Users/g/Desktop/work/cake/cake_server/dist/main.js:248537:10)
+    at ./src/app.module.ts (/Users/g/Desktop/work/cake/cake_server/dist/main.js:217314:84)
+
+
+
+这个是说有 require() 换成import
+
+
+## tsconfig里的初始化 为false
+strictPropertyInitialization

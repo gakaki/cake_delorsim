@@ -232,7 +232,7 @@ export class WeappGoodsListStyle {
 	DELIVERY: GoodsListStyleConfig;
 	EXPRESS: GoodsListStyleConfig;
 	SELF_TAKE: GoodsListStyleConfig;
-	COMMON: CommonGoodsListStyle;
+	COMMON: GoodsListStyleConfig;
 }
 
 export class GoodsListStyleConfig {
@@ -312,17 +312,17 @@ export class DisplayCarrierConfig {
 }
 
 export class Scene {
-	cartPageSwitch: boolean;
-	itemDetailSwitch: boolean;
-	readyOrderPageSwitch: boolean;
-	shelfOrderPageSwitch: boolean;
+	cartPageSwitch: boolean = false
+	itemDetailSwitch: boolean = false
+	readyOrderPageSwitch: boolean = false
+	shelfOrderPageSwitch: boolean = false
 }
 
 export class Apollo {
-	retail_shelf_order: boolean;
+	retail_shelf_order: boolean = false
 }
 
 export class ShelfContact {
-	mobileNumber: string;
-	phone: string;
+	mobileNumber: string = ""
+	phone: string = ""
 }

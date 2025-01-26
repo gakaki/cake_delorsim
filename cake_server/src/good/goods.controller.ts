@@ -9,8 +9,8 @@ import { GoodService } from './good.service';
 // @UseInterceptors(CacheInterceptor)
 export class GoodsController {
   constructor(
-    @Inject(CACHE_MANAGER)
-    private cacheManager: Cache,
+    // @Inject(CACHE_MANAGER)
+    // private cacheManager: Cache,
     @InjectRepository(Good)
     private goodRepository: Repository<Good>,
     private  goodService: GoodService,

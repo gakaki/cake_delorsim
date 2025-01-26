@@ -62,8 +62,6 @@ export class BrandService {
           name: brand.name,
           appId: brand.appId,
           kdtId: brand.kdtId,
-          itemGroups: shelfConfig.data.shelf.itemGroupList,
-          shelfConfig: shelfConfig.data.shelf
         });
 
         await this.brandRepository.save(brandEntity);

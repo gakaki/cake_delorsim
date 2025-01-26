@@ -2,9 +2,9 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Good } from '../entities/good.entity';
-import { Jieba } from '@node-rs/jieba';
+import jieba from "./myjieba"
 
-interface SimilarityResult {
+export interface SimilarityResult {
   good: Good;
   score: number;
 }
@@ -19,8 +19,8 @@ export class SimilarityService {
   // 计算文本相似度的方法
   public calculateTextSimilarity(text1: string, text2: string): number {
     // 使用结巴分词
-    const tokens1 = cut(text1);
-    const tokens2 = cut(text2);
+    const tokens1 = jieba.cut(text1);
+    const tokens2 = jieba.cut(text2);
 
     // 计算共同词的数量
     const commonTokens = tokens1.filter(token => tokens2.includes(token));

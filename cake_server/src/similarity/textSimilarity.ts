@@ -1,10 +1,7 @@
 'use strict';
 
-import { Jieba } from '@node-rs/jieba';
-import { dict } from '@node-rs/jieba/dict'
+import jieba from './myjieba';
 
-const jieba = Jieba.withDict(dict)
-console.log("start new jieba",jieba)
 
 export class TextSimilarity {
   /**
