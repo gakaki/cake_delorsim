@@ -1,5 +1,5 @@
-import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from "typeorm";
-import { IsNotEmpty, IsString, IsArray, IsOptional } from "class-validator";
+import { Entity, PrimaryGeneratedColumn, Column, OneToMany, Relation } from "typeorm";
+import { IsNotEmpty, IsString, IsArray, IsOptional, IsEmpty } from "class-validator";
 import { Category } from "./category.entity";
 import { Good } from "./good.entity";
 
@@ -23,20 +23,31 @@ export class Brand {
 	@IsString()
 	kdtId: string = "";
 
+	@Column({ default: '', nullable: true })
+	@IsEmpty()
+	@IsString()
+	alias: string = ""; //给postbody请求用 
+
 	@Column("json", { nullable: true })
 	json: any = null; // Store the original JSON response
 
 	@OneToMany(
 		() => Category,
 		(category) => category.brand,
+		{ 
+			createForeignKeyConstraints: false,
+		},
 	)
-	categories?: Category[];
+	categories?: Relation<Category[]>;
 
 	@OneToMany(
 		() => Good,
 		(good) => good.brand,
+		{ 
+			createForeignKeyConstraints: false,
+		},
 	)
-	goods?: Good[];
+	goods?: Relation<Good[]>;
 
 	@Column({ nullable: true })
 	@Column({ type: "timestamp", default: () => "CURRENT_TIMESTAMP" })

@@ -14,6 +14,10 @@ export class BrandService {
     private brandRepository: Repository<Brand>,
   ) {}
 
+  async findAll() {
+    return this.brandRepository.findAndCount();
+  }
+
   async fetchYouzanShelfConfig(appId: string, kdtId: string) {
     try {
       const response = await axios.post(

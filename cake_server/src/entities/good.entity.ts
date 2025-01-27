@@ -4,6 +4,7 @@ import {
 	Column,
 	ManyToOne,
 	JoinColumn,
+	Relation,
 } from "typeorm";
 import {
 	IsNotEmpty,
@@ -64,10 +65,11 @@ export class Good {
 		{
 			nullable: true,
 			onDelete: "SET NULL",
+			createForeignKeyConstraints: false,
 		},
 	)
 	@JoinColumn({ name: "categoryId" })
-	category?: Category;
+	category?:Relation<Category>;
 
 	@Column({ nullable: true })
 	categoryId?: number;
@@ -78,10 +80,11 @@ export class Good {
 		{
 			nullable: true,
 			onDelete: "SET NULL",
+			createForeignKeyConstraints: false,
 		},
 	)
 	@JoinColumn({ name: "brandId" })
-	brand?: Brand;
+	brand?: Relation<Brand>;
   
 	@Column({ nullable: true })
 	brandId?: number;

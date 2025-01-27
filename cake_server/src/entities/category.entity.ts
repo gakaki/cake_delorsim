@@ -5,6 +5,7 @@ import {
 	ManyToOne,
 	JoinColumn,
 	OneToMany,
+	Relation,
 } from "typeorm";
 import { IsNotEmpty, IsString, IsOptional } from "class-validator";
 import { Brand } from "./brand.entity";
@@ -39,16 +40,20 @@ export class Category {
 		{
 			nullable: true,
 			onDelete: "SET NULL",
+			createForeignKeyConstraints: false,
 		},
 	)
 	@JoinColumn({ name: "brandId" })
-	brand?: Brand;
+	brand?: Relation<Brand>;
 
 	@OneToMany(
 		() => Good,
 		(good) => good.category,
+		{
+			createForeignKeyConstraints: false,
+		},
 	)
-	goods?: Good[];
+	goods?: Relation<Good[]>;
 
 	@Column({ nullable: true })
 	brandId?: number;

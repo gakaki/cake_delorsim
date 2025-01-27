@@ -14,6 +14,8 @@ import { CacheModule } from "@nestjs/cache-manager";
 import { GoodService } from "./good/good.service";
 import { SimilarityService } from "./similarity/similarity.service";
 import { SimilarityController } from './similarity/similarity.controller';
+import { BrandService } from "./brand.service";
+import compression from '@fastify/compress';
 
 @Module({
 	imports: [
@@ -24,12 +26,13 @@ import { SimilarityController } from './similarity/similarity.controller';
 		}),
 		TypeOrmModule.forRoot(databaseConfig),
 		TypeOrmModule.forFeature([Good, Brand, Category]),
-		forwardRef(() => BrandModule),
+		// forwardRef(() => BrandModule), 加了会说 router 找不到brands 也就是module里和下面controller会重复的 就用一个
+		// module写了 下面controller就不要写了
 		forwardRef(() => YouZanModule),
 		forwardRef(() => TaskModule),
 	],
 	controllers: [AppController, GoodsController, BrandController, SimilarityController],
-	providers: [AppService,GoodService,SimilarityService],
+	providers: [AppService,GoodService,BrandService,SimilarityService],
 })
 export class AppModule {}
 

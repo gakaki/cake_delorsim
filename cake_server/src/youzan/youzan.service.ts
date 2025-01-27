@@ -32,6 +32,8 @@ export class YouZanService {
   ) {}
   
   async sync() {
+    
+    await this.brandRepository.clear();
     let brands = await this.brandRepository.find();
     if (brands.length === 0) {
       brands = await this.initBrands()
@@ -72,6 +74,7 @@ export class YouZanService {
         name: 'WentingG 文汀半糖蛋糕',
         appId: 'wx2e2e28945c980c46', 
         kdtId: '146387302',
+        alias: "",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -79,6 +82,15 @@ export class YouZanService {
         name: '德罗心', 
         appId: 'wx50d13a67c1b59969', 
         kdtId: '177397716',
+        alias: "uUKBWb5BUZ",
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        name: 'HERERS赫芮斯轻糖蛋糕', 
+        appId: 'wx33f957b620f200ee', 
+        kdtId: '144326322',
+        alias: "aSij8m7g2p",
         createdAt: new Date(),
         updatedAt: new Date()
       }
@@ -93,23 +105,12 @@ export class YouZanService {
     this.logger.log(`开始同步:${brand.name} , ${brand.appId}, ${brand.kdtId}`);
 
     let postBody = {
-      "goodsFilterType": 0,
-      "alias": "",
-      "mode": "0",
-      "userLocation": {},
-      "retailSource": "MINAPP-SHELF-3.41.5",
-      "useSwitch": "v2",
-      "supportUnavailableGoods": 2,
-      "supportFixGroupOptionalCombo": true,
-      "screenWidth": 414
+      "alias": brand.alias,
     }
-    if (brand.name == '德罗心'){
-      postBody.alias =  "uUKBWb5BUZ";
-      postBody.mode =  "1";
-    }
-    
+ 
     await firstValueFrom(
-      this.httpService.post(`https://h5.youzan.com/retail/h5/miniprogram/shelf-config/getFirstLevelConfigs`,postBody , {
+      this.httpService.post(`https://h5.youzan.com/retail/h5/miniprogram/shelf-config/getFirstLevelConfigs`,
+        postBody , {
         params: {
           app_id: brand.appId,
           kdt_id: brand.kdtId
