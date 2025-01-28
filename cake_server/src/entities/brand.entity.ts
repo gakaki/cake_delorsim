@@ -2,6 +2,7 @@ import { Entity, PrimaryGeneratedColumn, Column, OneToMany, Relation } from "typ
 import { IsNotEmpty, IsString, IsArray, IsOptional, IsEmpty } from "class-validator";
 import { Category } from "./category.entity";
 import { Good } from "./good.entity";
+import { Exclude } from "class-transformer";
 
 @Entity("brand")
 export class Brand {
@@ -49,10 +50,12 @@ export class Brand {
 	)
 	goods?: Relation<Good[]>;
 
+	@Exclude()
 	@Column({ nullable: true })
 	@Column({ type: "timestamp", default: () => "CURRENT_TIMESTAMP" })
 	createdAt: Date = new Date();
 
+	@Exclude()
 	@Column({
 		type: "timestamp",
 		default: () => "CURRENT_TIMESTAMP",

@@ -29,13 +29,16 @@ export class GoodService {
         'brand.id', 
         'brand.name'
       ])
+      // .where('brand.name LIKE :brandName', { brandName: '%WentingG%' })
+      // .orWhere('brand.name LIKE :brandName', { brandName: '%德罗心%' })
       .take(limit)
       .skip((page - 1) * limit);
 
     let [goods, total] = await queryBuilder.getManyAndCount()
+
+    goods = goods.filter( g => g.brand?.name.includes("德罗心") || g.brand?.name.includes("WentingG"))
     goods = compareBrandSimilarity(goods)
-    console.log("get goods finish jend")
-   
+      
     return {
       data:  goods,
       total,

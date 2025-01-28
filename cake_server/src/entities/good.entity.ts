@@ -16,8 +16,7 @@ import {
 import { Category } from "./category.entity";
 import { Brand } from "./brand.entity";
 import { SimilarityAnalysisResult } from "@/similarity/windSimilar";
-import { Exclude } from 'class-transformer';
-import { toJSON } from "flatted";
+import { Exclude, instanceToPlain } from 'class-transformer';
 
 @Entity("good")
 export class Good {
@@ -44,23 +43,17 @@ export class Good {
 	@IsNumber()
 	price: number = 0;
 
+	@Exclude()
 	@Column({ nullable: true })
 	@IsOptional()
 	@IsString()
 	url: string = "";
 
+	@Exclude()
 	@Column("json", { nullable: true })
 	json: any = null;
 
-	@Column({ type: "timestamp", default: () => "CURRENT_TIMESTAMP" })
-	createdAt: Date = new Date();
 
-	@Column({
-		type: "timestamp",
-		default: () => "CURRENT_TIMESTAMP",
-		onUpdate: "CURRENT_TIMESTAMP",
-	})
-	updatedAt: Date = new Date();
 
 	@ManyToOne(
 		() => Category,
@@ -93,15 +86,34 @@ export class Good {
 	brandId?: number;
 
   	//类似的商品
-  	// @Exclude({ toPlainOnly: true })
   	similarGoods:SimilarityGood[] = []
 
+	// toJSON() { // no suage
+	// 	this.similarGoods.map( i => instanceToPlain(i))
+	// 	return this
+	// }
+
+	@Exclude()
+	@Column({ type: "timestamp", default: () => "CURRENT_TIMESTAMP" })
+	createdAt: Date = new Date();
+
+	@Exclude()
+	@Column({
+		type: "timestamp",
+		default: () => "CURRENT_TIMESTAMP",
+		onUpdate: "CURRENT_TIMESTAMP",
+	})
+	updatedAt: Date = new Date();
 }
 
-export interface SimilarityGood {
+export class SimilarityGood {
     good: Good;
-    similarity_name: SimilarityAnalysisResult
-    similarity_description: SimilarityAnalysisResult
+	@Exclude()
+    similarity_name: SimilarityAnalysisResult ;
+
+	@Exclude()
+    similarity_description: SimilarityAnalysisResult;
+	
 	similarity_number_max: Number
 	similarity_number_average: Number
 	similarity_name_number: Number

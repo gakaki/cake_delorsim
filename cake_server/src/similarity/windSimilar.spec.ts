@@ -2,7 +2,7 @@ import {describe, it, expect} from 'vitest';
 import {WindSimilarity} from './windSimilar';
 import { Good} from '../entities';
 import { compareBrandSimilarity } from "./goodSimilar"
-import {stringify} from "flatted";
+import {classToPlain, instanceToPlain} from 'class-transformer';
 
 
 describe('TextSimilarity', () => {
@@ -173,13 +173,12 @@ describe('蛋糕文字对比', () => {
         let data        = require("./cake.json").data as Good[];
         data            = data.slice(0,50)
         data            = data.filter( g => g.name.includes("草莓"))
-        const goodsByBrand  = compareBrandSimilarity(data);
-        
-        console.debug(stringify(goodsByBrand)) //这里只适合用来做调试打印了
+        let goodsByBrand  = compareBrandSimilarity(data);
+        console.log(JSON.stringify(goodsByBrand)) //这里只适合用来做调试打印了
     })
     it('针对json主动筛选出数据展示 多个品牌间商品相似性比较', () => {
         let data        = require("./cake.json").data as Good[];
         const goodsByBrand  = compareBrandSimilarity(data);
-        console.log(goodsByBrand)
+        console.log( JSON.stringify(goodsByBrand)) //这里只适合用来做调试打印了
     })
 });

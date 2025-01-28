@@ -1,5 +1,6 @@
 import { Brand, Good,SimilarityGood } from "@/entities";
 import WindSimilarity from "./windSimilar";
+import {instanceToPlain} from "class-transformer";
 
 
 
@@ -39,14 +40,17 @@ export  const compareBrandSimilarity = (data: Good[]): Good[][] => {
                 if (goodsByBrand[j].length > 0){
                     if  ( currentGood.brand?.name == goodsByBrand[j][0].brand?.name ) {
                         continue;
-                    }
-                    const otherBrandGoods = goodsByBrand[j];
-                    const similarGoods = findSimilarGoods(currentGood, otherBrandGoods);
-                    if (similarGoods.length > 0) {
-                        currentGood.similarGoods.push(...similarGoods);
+                    }else{
+                        const otherBrandGoods = goodsByBrand[j];
+                        const similarGoods = findSimilarGoods(currentGood, otherBrandGoods);
+                        if (similarGoods.length > 0) {
+                            currentGood.similarGoods.push(...similarGoods);
+                        }
                     }
                 }
             }
+            // different brands goods totaly resize 
+            currentGood.similarGoods = currentGood.similarGoods.slice(0, 5);
         }
     }
     return goodsByBrand
@@ -71,15 +75,16 @@ export  const findSimilarGoods = (currentGood: Good, otherBrandGoods: Good[]): S
             otherGood.description || ''
         );
         similarGoods.push({
-            good:otherGood,
+            good:instanceToPlain(otherGood), // disable circul refence
             similarity_number_max : Math.max(result_name.score , result_description.score) ,
             similarity_number_average : (result_name.score + result_description.score) /2 ,
             similarity_name_number: result_name.score,
             similarity_description_number: result_description.score,
-            similarity_name: result_name,
-            similarity_description: result_description
+            // similarity_name: result_name,
+            // similarity_description: result_description
         });
     }
-    // 按相似度降序排序z
-    return similarGoods.sort((a, b) => Number(b.similarity_number_max) - Number(a.similarity_number_max));
+    // 按相似度降序排序
+    let sortedSimilarGoods = similarGoods.sort((a, b) => Number(b.similarity_number_max) - Number(a.similarity_number_max));
+    return sortedSimilarGoods
 }

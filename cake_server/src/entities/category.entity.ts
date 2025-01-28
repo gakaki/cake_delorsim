@@ -10,6 +10,7 @@ import {
 import { IsNotEmpty, IsString, IsOptional } from "class-validator";
 import { Brand } from "./brand.entity";
 import { Good } from "./good.entity";
+import { Exclude } from "class-transformer";
 
 @Entity("category")
 export class Category {
@@ -55,12 +56,15 @@ export class Category {
 	)
 	goods?: Relation<Good[]>;
 
+	
 	@Column({ nullable: true })
 	brandId?: number;
 
+	@Exclude()
 	@Column({ type: "timestamp", default: () => "CURRENT_TIMESTAMP" })
 	createdAt: Date = new Date();
 
+	@Exclude()
 	@Column({
 		type: "timestamp",
 		default: () => "CURRENT_TIMESTAMP",

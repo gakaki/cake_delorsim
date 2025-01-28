@@ -1,4 +1,4 @@
-import { Controller, Get, Inject, Query, UseInterceptors } from '@nestjs/common';
+import { ClassSerializerInterceptor, Controller, Get, Inject, Query, UseInterceptors } from '@nestjs/common';
 import { CACHE_MANAGER, CacheInterceptor, CacheKey, CacheTTL } from '@nestjs/cache-manager';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
@@ -16,6 +16,7 @@ export class GoodsController {
     private  goodService: GoodService,
   ) { }
 
+  @UseInterceptors(ClassSerializerInterceptor)
   @Get()
   async findAll(
     @Query('page') page = 1,
