@@ -38,7 +38,7 @@ export class GoodService {
 
     goods = goods.filter( g => g.brand?.name.includes("德罗心") || g.brand?.name.includes("WentingG"))
     goods = compareBrandSimilarity(goods)
-      
+    // goods = goods.slice(0,1) //暂时只要和wenting比
     return {
       data:  goods,
       total,

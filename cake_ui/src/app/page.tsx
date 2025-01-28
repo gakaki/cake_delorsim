@@ -1,4 +1,4 @@
-import GoodsList from "./good";
+import GoodsList from "./compareGoods/good";
 
 export default function Home() {
   return (

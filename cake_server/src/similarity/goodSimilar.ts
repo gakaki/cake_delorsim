@@ -5,7 +5,7 @@ import {instanceToPlain} from "class-transformer";
 
 
 // 准备商品数据的辅助方法
-export const prepareGoodsData = (data: Good[] = []) => {
+export const prepareGoodsToGroupGoods = (data: Good[] = []) => {
     // 1. 过滤掉价格低于4的商品
     const filteredGoods = data.filter(good => good.price >= 4 );
     console.log(`总商品数量: ${data.length}, 过滤后商品数量: ${filteredGoods.length}`);
@@ -29,7 +29,7 @@ export const prepareGoodsData = (data: Good[] = []) => {
 
 // 比较品牌间商品相似性的辅助方法
 export  const compareBrandSimilarity = (data: Good[]): Good[][] => {
-    const goodsByBrand = prepareGoodsData(data)
+    const goodsByBrand = prepareGoodsToGroupGoods(data)
     for (let i = 0; i < goodsByBrand.length; i++) {
         const currentBrandGoods = goodsByBrand[i];
         for (const currentGood of currentBrandGoods) {
@@ -49,7 +49,6 @@ export  const compareBrandSimilarity = (data: Good[]): Good[][] => {
                     }
                 }
             }
-            // different brands goods totaly resize 
             currentGood.similarGoods = currentGood.similarGoods.slice(0, 5);
         }
     }
@@ -80,8 +79,8 @@ export  const findSimilarGoods = (currentGood: Good, otherBrandGoods: Good[]): S
             similarity_number_average : (result_name.score + result_description.score) /2 ,
             similarity_name_number: result_name.score,
             similarity_description_number: result_description.score,
-            // similarity_name: result_name,
-            // similarity_description: result_description
+            similarity_name: result_name,
+            similarity_description: result_description
         });
     }
     // 按相似度降序排序
