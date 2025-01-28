@@ -15,6 +15,9 @@ import {
 } from "class-validator";
 import { Category } from "./category.entity";
 import { Brand } from "./brand.entity";
+import { SimilarityAnalysisResult } from "@/similarity/windSimilar";
+import { Exclude } from 'class-transformer';
+import { toJSON } from "flatted";
 
 @Entity("good")
 export class Good {
@@ -89,6 +92,18 @@ export class Good {
 	@Column({ nullable: true })
 	brandId?: number;
 
-  @Column('json', { nullable: true })
-  similarity?: string;
+  	//类似的商品
+  	// @Exclude({ toPlainOnly: true })
+  	similarGoods:SimilarityGood[] = []
+
+}
+
+export interface SimilarityGood {
+    good: Good;
+    similarity_name: SimilarityAnalysisResult
+    similarity_description: SimilarityAnalysisResult
+	similarity_number_max: Number
+	similarity_number_average: Number
+	similarity_name_number: Number
+	similarity_description_number: Number
 }

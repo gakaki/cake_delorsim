@@ -1,9 +1,22 @@
+import { Good } from "@/entities";
 import jiebar from "./myjieba"
 
 export interface SimilarityOptions {
   threshold?: number;
   ignoreCase?: boolean;
   minTokenLength?: number;
+}
+
+export interface SimilarityAnalysisResult {
+  score: number;
+  isSimilar: boolean;
+  tokens1: string[];
+  tokens2: string[];
+  details: {
+    commonTokens: string[];
+    uniqueTokens1: string[];
+    uniqueTokens2: string[];
+  }
 }
 
 export class WindSimilarity {
@@ -89,7 +102,7 @@ export class WindSimilarity {
     options: SimilarityOptions = {}
   ) {
     const {
-      threshold = 0.5,
+      threshold = 0.9,
       ignoreCase = true,
       minTokenLength = 1
     } = options;

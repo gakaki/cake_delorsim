@@ -51,28 +51,24 @@ export class BrandService {
     }
   }
 
-  @Cron(CronExpression.EVERY_HOUR)
-  async updateBrandData() {
-    const brands = [
-      { name: 'WentingG', appId: 'wx50d13a67c1b59969', kdtId: '177397716' },
-      { name: 'DeLuoXin', appId: 'wx50d13a67c1b59969', kdtId: '177397716' }
-    ];
-
-    for (const brand of brands) {
-      try {
-        const shelfConfig = await this.fetchYouzanShelfConfig(brand.appId, brand.kdtId);
-        
-        const brandEntity = this.brandRepository.create({
-          name: brand.name,
-          appId: brand.appId,
-          kdtId: brand.kdtId,
-        });
-
-        await this.brandRepository.save(brandEntity);
-        this.logger.log(`Updated data for brand: ${brand.name}`);
-      } catch (error) {
-        this.logger.error(`Error updating brand ${brand.name}`, error);
-      }
+  async truncateTable() {
+    try {
+      // Truncate the table and reset the identity (auto-increment) sequence
+      await this.brandRepository.query('TRUNCATE TABLE "brand" RESTART IDENTITY CASCADE');
+      this.logger.log('Brand table truncated and reset successfully');
+    } catch (error) {
+      this.logger.error('Error truncating brand table', error);
+      throw error;
+    }
+  }
+  async resetPrimaryKeySequence() {
+    try {
+      // Reset the primary key sequence to start from 1
+      await this.brandRepository.query('ALTER SEQUENCE brand_id_seq RESTART WITH 1');
+      this.logger.log('Brand table primary key sequence reset to 1');
+    } catch (error) {
+      this.logger.error('Error resetting brand table primary key sequence', error);
+      throw error;
     }
   }
 }

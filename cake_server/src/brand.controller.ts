@@ -1,7 +1,8 @@
-import { Controller, Get, Query, Repository } from '@nestjs/common';
+import { Controller, Get, Query } from '@nestjs/common';
 import { BrandService } from './brand.service';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Brand } from './entities';
+import { Repository } from 'typeorm';
 
 @Controller('brands')
 // @UseInterceptors(CacheInterceptor)

@@ -1618,3 +1618,49 @@ ReferenceError: Invalid left-hand side in assignment
 
 ## tsconfig里的初始化 为false
 strictPropertyInitialization
+
+
+
+13:42 分钟 17分钟
+
+编写一个React前端持续传输计算器 
+
+
+编写一个React的显存推测计算器 训练时间和 需要的显存
+
+fp4 fp8 fp16  int4 int8
+
+
+
+
+
+
+###  排序算法
+
+ /*
+    
+      这里json包含了所有的 good(good里包含了category和brand)
+      循环json获得所有不重复的brand 按照brand.id排序
+
+      利用上面拿到的brand id,过滤出不同组的 good,形成数组.
+
+      循环第一组的所有good, 然后和剩下第二组的所有good 进行比较,
+      比较的内容是 good的description和good的name的文本相似性,具体文本相似性 函数参考如下
+      const result = WindSimilarity.analyse(text1, text2);
+      expect(result.score).toBeLessThan(0.9);
+      expect(result.isSimilar).toBe(false);
+      按照相似性的score, 排分进行排序, 取排分最接近的2个,然后排分必须大于0.7,若小于0.7判断为无效找不到类似的good.
+
+      然后以此类推第三组也是如此.
+
+      然后返回的数据格式为 items = [[good, similarGood1, similarGood2],[good, similarGood1, similarGood2]]
+
+      另外如果没有被匹配到的第二,第三组的数据放到 other_low_score_items数组中
+
+
+    */
+
+
+
+
+    在标题上显示 数字 数量款

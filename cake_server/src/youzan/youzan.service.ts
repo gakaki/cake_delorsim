@@ -29,11 +29,27 @@ export class YouZanService {
     private categoryRepository: Repository<Category>,
     @InjectRepository(Good)
     private goodRepository: Repository<Good>
+
   ) {}
+  
+
+  async truncateTables() {
+    try {
+      // Truncate the table and reset the identity (auto-increment) sequence
+      await this.brandRepository.query('TRUNCATE TABLE "brand" RESTART IDENTITY CASCADE');
+      await this.categoryRepository.query('TRUNCATE TABLE "category" RESTART IDENTITY CASCADE');
+      await this.goodRepository.query('TRUNCATE TABLE "good" RESTART IDENTITY CASCADE');
+
+      this.logger.log('Brand table truncated and reset successfully');
+    } catch (error) {
+      this.logger.error('Error truncating brand table', error);
+      throw error;
+    }
+  }
   
   async sync() {
     
-    await this.brandRepository.clear();
+    await this.truncateTables()
     let brands = await this.brandRepository.find();
     if (brands.length === 0) {
       brands = await this.initBrands()
@@ -71,6 +87,7 @@ export class YouZanService {
   async initBrands() : Promise<Brand[]> {
     const initialBrands = [
       {
+        id: 1,
         name: 'WentingG 文汀半糖蛋糕',
         appId: 'wx2e2e28945c980c46', 
         kdtId: '146387302',
@@ -79,6 +96,7 @@ export class YouZanService {
         updatedAt: new Date()
       },
       {
+        id: 2,
         name: '德罗心', 
         appId: 'wx50d13a67c1b59969', 
         kdtId: '177397716',
@@ -87,6 +105,7 @@ export class YouZanService {
         updatedAt: new Date()
       },
       {
+        id: 3,
         name: 'HERERS赫芮斯轻糖蛋糕', 
         appId: 'wx33f957b620f200ee', 
         kdtId: '144326322',

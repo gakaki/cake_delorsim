@@ -1,0 +1,3067 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "蛇年聚宝",
+            "description": "草莓，车厘子，鲜奶奶油，蜂蜜戚风蛋糕，草莓冻，百里香，糖粉",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/29/FhnyD_Bm79TBTxdhVi6clF3aIg0f.jpg",
+            "price": "199.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.316Z",
+            "updatedAt": "2025-01-27T06:21:26.316Z",
+            "category": {
+                "id": 1,
+                "name": "车厘子季半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 2,
+            "name": "厘刻发财",
+            "description": "车厘子，草莓冻，巧克力脆珠，巧克力干纳许，糖粉，巧克力奶油，巧克力蛋糕胚",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/11/28/FkSinUPl2BjOoKAQyMtjtkG1e3co.jpg",
+            "price": "289.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 1,
+                "name": "车厘子季半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 3,
+            "name": "厘刻开心",
+            "description": "车厘子，草莓冻，开心果奶油，糖粉，巧克力蛋糕胚",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/11/28/FtW-WWJwIsyAflr9uq1uMF7ApyZK.jpg",
+            "price": "289.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 1,
+                "name": "车厘子季半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 4,
+            "name": "一颗草莓「糖」",
+            "description": "草莓，马蹄爆爆珠，益生菌冻，草莓奶油，蜂蜜戚风蛋糕",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/11/15/FnrNvhWJOh39A0GVuvF45PcEx43S.jpg",
+            "price": "149.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 2,
+                "name": "草莓限定半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 5,
+            "name": "一起摘「巧」莓",
+            "description": "草莓，花生酱，巧克力脆珠，巧克力奶油，蜂蜜戚风蛋糕",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/11/15/Flha7um_voLHp2yjMQytAIpAXJNE.jpg",
+            "price": "149.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 2,
+                "name": "草莓限定半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 6,
+            "name": "草莓酸奶",
+            "description": "草莓，酸奶奶油，蜂蜜戚风蛋糕",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/11/26/FrATt2Z4EAfI_CnbOjmY4PqDQI4v.jpg",
+            "price": "149.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 2,
+                "name": "草莓限定半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 7,
+            "name": "莓莓甜心",
+            "description": "草莓，山楂，树莓，柑橘冻，甜菜根酸奶奶油，酸奶奶油，巧克力棒，蜂蜜戚风蛋糕",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/11/15/FhsQNnhBrwvrHBmnHnPaKOmFjm_Q.jpg",
+            "price": "149.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 2,
+                "name": "草莓限定半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 8,
+            "name": "草莓多巴胺",
+            "description": "草莓，草莓奶油，乳酪奶油，红丝绒蛋糕胚",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/11/15/FnSReb2-7qWiJK8gmZThRViGNFkc.jpg",
+            "price": "139.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 2,
+                "name": "草莓限定半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 9,
+            "name": "草莓晴王双拼",
+            "description": "草莓，晴王，酸奶奶油，蜂蜜戚风蛋糕",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/08/FqbT0sir1hvxO39LMiGxPeGSUGXU.jpg",
+            "price": "149.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 2,
+                "name": "草莓限定半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 10,
+            "name": "晴王酸奶",
+            "description": "晴王，特调酸奶奶油，蜂蜜戚风蛋糕。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/11/26/Fn7mWyFv_pol0-w7K1NeatotWBUM.jpg",
+            "price": "138.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 3,
+                "name": "招牌酸奶半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 11,
+            "name": "草莓开心果双拼",
+            "description": "草莓、草莓奶油、开心果奶油、碧根果、开心果薄脆、糖粉、草莓开心果双拼",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/08/FucY6bI1GS2vtSAn9eChdy7YfT4K.jpg",
+            "price": "149.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 3,
+                "name": "招牌酸奶半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 12,
+            "name": "树莓晴王双拼",
+            "description": "晴王，树莓，树莓奶油，酸奶奶油，蜂蜜戚风蛋糕",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/08/FnbFZSny6p6TFKvxnHcg3Nnaz2lq.jpg",
+            "price": "149.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 3,
+                "name": "招牌酸奶半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 13,
+            "name": "油画玫珑",
+            "description": "蜜瓜，无花果，椰丝，树莓乳酪酱，马蹄爆爆珠，酸奶奶油，开心果奶油，树莓奶油，蜂蜜戚风蛋糕。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/08/25/FpdWe6FA56pxpMx_gZ10WuRr_k5Q.jpg",
+            "price": "159.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 4,
+                "name": "文汀经典半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 14,
+            "name": "红提龙井",
+            "description": "红提，无花果，树莓，蓝莓，晴王，马蹄爆爆珠，龙井茶奶油，金橘奶油，蜂蜜戚风蛋糕。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/08/25/FkuZSzuMLayg3pNMrZR6f18wkplB.jpg",
+            "price": "149.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 4,
+                "name": "文汀经典半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 15,
+            "name": "树莓红丝绒",
+            "description": "无花果，树莓，蓝莓，树莓乳酪酱，鲜奶奶油，红丝绒戚风蛋糕。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/08/25/Fn9hHOePX6_oWOJ-F8-Eehc-7T0d.jpg",
+            "price": "128.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 4,
+                "name": "文汀经典半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 16,
+            "name": "白雪树莓",
+            "description": "树莓，马蹄爆爆珠，树莓奶油，鲜奶奶油，蜂蜜戚风蛋糕。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/08/25/Fv8UVU1F5b3oTvJGuvzYNR5HMwfz.jpg",
+            "price": "138.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 4,
+                "name": "文汀经典半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 17,
+            "name": "香蕉巧克力脆脆",
+            "description": "香蕉，碧根果，可可粉，巧克力零食，巧克力奶油，巧克力棒，巧克力戚风蛋糕。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/07/11/FggypRNqNukGEfTsqWkym7u7yrSQ.jpeg",
+            "price": "139.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 5,
+                "name": "创意系列半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 18,
+            "name": "玫珑白雪",
+            "description": "新鲜蜜瓜，开心果薄脆，开心果奶油，鲜奶奶油，蜂蜜戚风蛋糕。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/03/13/FlYoqo14ZA9cX7Gh4VzUOn52AvFp.jpeg",
+            "price": "139.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 5,
+                "name": "创意系列半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 19,
+            "name": "开心果晴王双拼",
+            "description": "晴王，无花果，开心果薄脆，开心果奶油，鲜奶奶油，蜂蜜戚风蛋糕。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/08/FrTQyDJ9epMLm3gvMiR-W2PrjMLi.jpg",
+            "price": "139.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 5,
+                "name": "创意系列半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 30,
+            "name": "联系我们",
+            "description": "如有问题请致电大众点评门店电话。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2023/09/19/FphHcc06PSUx-nX0PbTq6E27VJX_.jpg",
+            "price": "0.01",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 8,
+                "name": "温馨提示",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 20,
+            "name": "红粉佳人",
+            "description": "无花果，树莓，椰丝，柑橘冻，树莓乳酪酱，草莓奶油，鲜奶奶油，红丝绒戚风蛋糕。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/11/FtBYMarKyENHLIFWs3NZOkoYWHA-.jpg",
+            "price": "149.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 5,
+                "name": "创意系列半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 21,
+            "name": "杨枝甘露",
+            "description": "芒果，西柚粒，西米，椰蓉，特调芒果奶油，特调椰奶奶油，蜂蜜戚风蛋糕。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2023/09/25/FrQByCeGzilyVRfzaeTnY9el9rPK.jpg",
+            "price": "149.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 5,
+                "name": "创意系列半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 22,
+            "name": "小Pong友",
+            "description": "脆皮蛋筒，橡皮糖，金色糖珠，芒果汁，芒果，芒果奶油，蜂蜜戚风蛋糕。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/05/27/FjsdehuorroNQnjGrQ5oWrgrcSMD.jpeg",
+            "price": "149.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 5,
+                "name": "创意系列半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 23,
+            "name": "事事顺栗",
+            "description": "甘栗仁，特调栗子奶油，蜂蜜戚风蛋糕",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2023/06/26/FsT4zQl5wBv4eHz7UStezwMoBVp3.jpg",
+            "price": "128.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 5,
+                "name": "创意系列半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 24,
+            "name": "芒果血糯米",
+            "description": "芒果，血糯米，原味奶油，蜂蜜戚风蛋糕。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2023/06/26/FvIVK3M1B4w7rFQqEc3-1sdsCDCd.jpg",
+            "price": "138.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 5,
+                "name": "创意系列半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 25,
+            "name": "榛巧莓果瀑布",
+            "description": "草莓，车厘子，巧克力奶油，巧克力戚风蛋糕，巧克力甘纳许，巧克力脆珠，榛子仁",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/18/FjebkwfjbMINGLfo38PgDC1AC6Oz.jpg",
+            "price": "188.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 6,
+                "name": "季节限定半糖蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 26,
+            "name": "升级版生日大礼包",
+            "description": "斜跨编织包，生日帽，生日礼仪带，投影灯，喷花筒，贺卡，餐垫纸“购买任意蛋糕即可购买”。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/19/FvywWknyO_ik_u4S3hEkX-sqChxY.jpg",
+            "price": "16.90",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 7,
+                "name": "加购",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 27,
+            "name": "不锈钢叉+一次性盘",
+            "description": null,
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2023/09/19/Fi-sKnaLmf9lSFFqF5h2Nj-T5HIr.jpg",
+            "price": "5.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 7,
+                "name": "加购",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 28,
+            "name": "所有绿植均不可食用",
+            "description": "所有绿植均不可食用",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/08/22/Fry4UQVOFnjDGYlk_olJlSnZowq_.png",
+            "price": "0.01",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 8,
+                "name": "温馨提示",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 29,
+            "name": "无忧配送",
+            "description": "优质配送团队，无忧新鲜达。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2023/09/19/Ft2K5hBsLhxxwRDls9yxYiOTCl4i.jpg",
+            "price": "0.01",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 8,
+                "name": "温馨提示",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 31,
+            "name": "新鲜水果",
+            "description": "我们使用新鲜水果，需冷藏保存。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2023/09/19/Fp3_HTl1CqcWvIUYAYYovP3S_FH8.jpg",
+            "price": "0.01",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 9,
+                "name": "我们承诺",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 32,
+            "name": "24H现做",
+            "description": "24H现做,请您尽早食用,享新鲜口味。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2023/09/19/Fnmjni7kVnwbwRBvkB6X5SC64-rI.jpg",
+            "price": "0.01",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 9,
+                "name": "我们承诺",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 33,
+            "name": "动物奶油",
+            "description": "我们使用动物奶油，不含植物奶油，请平稳拿放。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2023/09/19/FkZLJq9hOeWkoXDIRBfProwe-HbK.jpg",
+            "price": "0.01",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 9,
+                "name": "我们承诺",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 1,
+                "name": "WentingG 文汀半糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 34,
+            "name": "「橘」 ·福气",
+            "description": "红丝绒蛋糕与橘子奶油融合搭配酸酸甜甜的砂糖橘，蝴蝶结象征家庭团圆，送上新春的福气与好运",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2025/01/26/FlKiut0AM0uaAQ5rODwAlg3s8CXk.jpg",
+            "price": "159.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 10,
+                "name": "蛇年限定",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 35,
+            "name": "「纳」·福心",
+            "description": "红丝绒蛋糕配上乳酪益生菌奶油与草莓奶冻，车厘子和树莓的形状像爱心，传递新春的祝福与温暖，新的一年要学会爱自己！",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2025/01/26/FhkBFOME1QkBFUjxiOsXzJq2OYPe.jpg",
+            "price": "139.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 10,
+                "name": "蛇年限定",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 36,
+            "name": "「鸿」·福禄",
+            "description": "山楂奶油与手作山楂酱的独特风味，榛子仁与核桃仁的脆感，红彤彤的山楂，象征迎接财富与好运，送鸿运当头吉祥如意。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2025/01/26/FtCVw83jafI05U5Unwey0qHjhBzb.jpg",
+            "price": "129.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 10,
+                "name": "蛇年限定",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 37,
+            "name": "奶皮子咸奶茶炒米",
+            "description": "原味蛋糕胚与咸奶茶奶油的绝妙结合，鲜奶皮子带来精致口感，炒米的香脆与草莓、蓝莓的酸甜组成，是来自蒙古的味道",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2025/01/26/FvC5nDyYmKO1_Xlip6YYky86nJ7H.jpg",
+            "price": "129.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 10,
+                "name": "蛇年限定",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 53,
+            "name": "焦糖海盐榛果",
+            "description": "焦糖的浓郁香甜与榛果的独特风味，层次丰富，带来温暖而迷人的口感体验。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/18/FqOssWFI8__aAOqfAEjqVZrD8Gaj.jpg",
+            "price": "128.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 13,
+                "name": "多肉系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 54,
+            "name": "葡萄燕麦",
+            "description": "新鲜葡萄的清甜与燕麦的自然谷物香气相结合，带来清新与营养兼具的口感体验。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/18/FsKX--6CpxMCRrSgpmUITdxVYL_f.jpg",
+            "price": "128.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 13,
+                "name": "多肉系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 38,
+            "name": "草莓白雪酸奶",
+            "description": "清新酸奶奶油与草莓的完美结合，轻盈的口感，带来自然的甜蜜享受。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/31/Fl2wFzCpBk8HfE-XXEdLPU8hypPw.jpg",
+            "price": "139.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 11,
+                "name": "草莓季限定",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            }
+        },
+        {
+            "id": 39,
+            "name": "草莓黑巧裸蛋糕",
+            "description": "黑巧戚风与草莓奶油的完美搭配，草莓与黑莓的酸甜，脆脆麦丽素口感丰富。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/31/FrVpAIGH5cZDBviyJyOPekERJPnt.jpg",
+            "price": "149.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.317Z",
+            "updatedAt": "2025-01-27T06:21:26.317Z",
+            "category": {
+                "id": 11,
+                "name": "草莓季限定",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.317Z",
+                "updatedAt": "2025-01-27T06:21:26.317Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 40,
+            "name": "草莓雪顶芭乐",
+            "description": "芭乐奶油与草莓的清甜碰撞，细腻的戚风蛋糕，带来热带风情与水果的双重享受。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/31/FtubK0taTwbQtjtK38eHuDeZzGYs.jpg",
+            "price": "129.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 11,
+                "name": "草莓季限定",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 41,
+            "name": "草莓果心芒芒",
+            "description": "草莓与芒果奶油交融，草莓冻干粒的脆感，鲜果的酸甜浓郁，清新美味。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/31/Fj1avp128N5mdB1fmhRfAhPTeU5b.jpg",
+            "price": "138.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 11,
+                "name": "草莓季限定",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 42,
+            "name": "草莓巧心脆脆",
+            "description": "巧克力戚风与草莓奶油相配，巧克力爆谷米与奥利奥碎，甜脆的东西让人欲罢不能。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/31/FjdIRtEoCTtKpy5UIu6AmkoiHzzd.jpg",
+            "price": "158.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 11,
+                "name": "草莓季限定",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 43,
+            "name": "莓果庆典",
+            "description": "莓果草莓庆典，时刻跨年限定！、车厘子与草莓冻干的完美结合，带来甜蜜满满的庆祝！",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/25/FmHVNixlV38ijlWb7C1DtBI6kp01.jpg",
+            "price": "168.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 12,
+                "name": "品牌热卖",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 44,
+            "name": "多肉车厘子奥利奥酸奶",
+            "description": "超多车厘子果肉，酸奶奶油的清新与奥利奥的酥脆，每一口都有果香与层次感的爆发！",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/25/FiQizmJykVbMXBLVmhxkrcWT_Hn1.jpg",
+            "price": "158.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 12,
+                "name": "品牌热卖",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 45,
+            "name": "草莓乳酪巧克力",
+            "description": "浓郁的巧克力戚风与丝滑乳酪奶油，搭配新鲜草莓和草莓冻，层层叠加的口感带来甜蜜的满足。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/28/Fin5KNAamxqAVPmFECXBvFXq_98t.jpg",
+            "price": "158.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 12,
+                "name": "品牌热卖",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 46,
+            "name": "草莓雪星许愿树",
+            "description": "甜美草莓与浓郁开心果的完美碰撞，打造节日限定的独特口感。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/28/Fm7a3s5RBeQekMPnekW8qXowj8ky.jpg",
+            "price": "168.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 12,
+                "name": "品牌热卖",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 47,
+            "name": "草莓燕麦",
+            "description": "健康燕麦与草莓的清新酸甜相结合，每一口都是自然与健康的享受。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/18/FlzEWXXYT07KwHM0S3qKl-vK9UAK.jpg",
+            "price": "138.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 12,
+                "name": "品牌热卖",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 48,
+            "name": "草莓乳酪",
+            "description": "新鲜草莓与草莓奶冻的甜美交织，乳酪奶油的醇厚感则带来独特的丝滑体验。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/18/FpfvPmkp6dRPkWODsVFgBzZ6VtEW.jpg",
+            "price": "158.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 12,
+                "name": "品牌热卖",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 49,
+            "name": "无花果乳酪",
+            "description": "无花果的独特香气与乳酪的香滑融合，层次丰富，细腻入口，带来无与伦比的味觉享受。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/18/Ftof_QrfJgQLxfJrtzxkgf8qM36j.jpg",
+            "price": "148.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 12,
+                "name": "品牌热卖",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 50,
+            "name": "黑芝麻血糯米",
+            "description": "黑芝麻的浓郁香气与血糯米的软糯口感交织，东方风味，尽显传统与创新的结合。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/18/FsVqYq4dzqDV14P7SDrSHJieRKYs.jpg",
+            "price": "128.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 12,
+                "name": "品牌热卖",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 51,
+            "name": "甜橘酸奶",
+            "description": "橙子的清新果香与酸奶的细腻结合，带来轻盈爽口的味觉体验。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/18/FpwaoErh9LQESjODOIGs8EkZGrkO.jpg",
+            "price": "138.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 12,
+                "name": "品牌热卖",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 52,
+            "name": "蓝莓巧克力",
+            "description": "蓝莓与巧克力的梦幻搭配，浓郁果香与丝滑奶油让每一口都是浪漫的享受。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/18/FriAvgCcAs_dCS-i-cd0imJ75r7k.jpg",
+            "price": "178.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 12,
+                "name": "品牌热卖",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 58,
+            "name": "甜橙椰奶",
+            "description": "橙子与椰奶的清香搭配，细腻椰丝与果粒的交融，带来热带风情的甜美体验。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/18/Fm5KR5r5lqB4axyuTGE1Oh3xaTQE.jpg",
+            "price": "128.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 14,
+                "name": "斑斓系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 59,
+            "name": "奇异果酸奶",
+            "description": "奇异果的酸甜与酸奶的清新结合，搭配马蹄爆珠的有趣口感，酸甜交织，满载活力。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/18/FkFBhgZgQYdIgsEfYszYWuBJHCZJ.jpg",
+            "price": "138.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 14,
+                "name": "斑斓系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 60,
+            "name": "芭乐晴王",
+            "description": "芭乐与晴王葡萄的鲜果组合，果香浓郁，细腻奶油与果粒的碰撞，带来每一口的清新享受。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/18/Fpzi3v-9KQ1WUzuv-k0VWnEn1Vgq.jpg",
+            "price": "138.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 14,
+                "name": "斑斓系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 55,
+            "name": "爆浆甜玉米",
+            "description": "香甜玉米和蓬松奶油的完美融合，如同阳光般温暖，带来童年的味道与满足感。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/18/Fg6DwbA44S83FO51qs19JVQaUv4e.jpg",
+            "price": "128.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 13,
+                "name": "多肉系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 56,
+            "name": "树莓燕麦",
+            "description": "树莓与燕麦的自然组合，酸甜爽口与谷物的丰富层次感，健康与美味并存。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/18/Fhj5eWJjYcvDRqrsHBi90JbqcZP9.jpg",
+            "price": "168.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 13,
+                "name": "多肉系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 57,
+            "name": "金桂酒酿",
+            "description": "桂花的芳香与酒酿的微醺搭配，细腻柔滑，带来如梦如幻的味蕾体验。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/18/FrWuwaY6D0p3AepK-tSnyS8kEOTI.jpg",
+            "price": "128.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 13,
+                "name": "多肉系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 61,
+            "name": "芭乐果葡",
+            "description": "芭乐与葡萄的双重果香，搭配柔滑奶油与马蹄爆珠，带来酸甜与清新的口感享受。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/18/Fs8r85eiYxsDj2AvvFFzjadN_J5I.jpg",
+            "price": "158.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 15,
+                "name": "双色可心系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 62,
+            "name": "无花果伯爵",
+            "description": "伯爵红茶的浓郁香气与无花果的甘甜交融，搭配焦糖饼干的香脆，呈现出高雅而丰富的果茶风味。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/18/FioPxeRebW2bmDSc5aEUtMedYgUR.jpg",
+            "price": "158.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 16,
+                "name": "Daliy悦享系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 63,
+            "name": "可可脆巧",
+            "description": "多层巧克力的浓郁碰撞，脆珠与饼干的丰富口感交织，带来令人无法抗拒的巧克力盛宴。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2025/01/26/FlEtiDeGcIXZtQSrrX7-OzzxEaxN.jpg",
+            "price": "188.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 16,
+                "name": "Daliy悦享系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 64,
+            "name": "装饰慎食",
+            "description": "蛋糕上的花草及logo插排均已经过消毒处理，但不可食用。儿童需在家长陪护下食用",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/11/18/Ft6gSGcZC_kdB8BasNuo1Koi2bAs.png",
+            "price": "0.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 17,
+                "name": "温馨提示",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 65,
+            "name": "过敏原提示",
+            "description": "部分原料可能含常见过敏原，如：蛋奶、小麦、坚果等，如有过敏史，请谨慎选购。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/11/18/FnQtOK9zBoddjgH2gOzaEAz7vk9r.png",
+            "price": "0.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 17,
+                "name": "温馨提示",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 66,
+            "name": "无忧配送",
+            "description": "高效自配送团队，保证蛋糕无忧到家",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/11/18/FomU07wiua3b9LhT0cOGqvQeEDtd.png",
+            "price": "0.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 17,
+                "name": "温馨提示",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 67,
+            "name": "联系我们",
+            "description": "如有任何问题，可进入小程序，右下角点击客服摁扭留言咨询。或拨打门店客服电话咨询",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/11/18/Fi2Hed8Q72KqxY1KZCvTplNRwxX6.png",
+            "price": "0.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 17,
+                "name": "温馨提示",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 68,
+            "name": "纯动物奶油",
+            "description": "优选全球进口纯优质动物奶油，健康&风味兼具。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/11/18/FsK4yR3G1FrBQBiFgRzLr8oYlRgw.png",
+            "price": "0.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 18,
+                "name": "品牌承诺",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 69,
+            "name": "当日现做",
+            "description": "现售现制，蛋糕不隔夜",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/11/18/Fqa6riRPqyi1WKtSkUs9PjFrl7by.png",
+            "price": "0.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 18,
+                "name": "品牌承诺",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 70,
+            "name": "时令鲜果",
+            "description": "甄选优质产地的时令水果，每口新鲜遵循自然馈赠。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/11/18/FqfWVC5bIsD6n2NLASx_Xj81aybm.png",
+            "price": "0.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 18,
+                "name": "品牌承诺",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 71,
+            "name": "手工现熬",
+            "description": "手工现熬果酱，鲜榨原汁，进口果茸",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/11/18/FkKNgYqsYNfYXOwr85aAl3Kv0gg8.png",
+            "price": "0.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 18,
+                "name": "品牌承诺",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 2,
+                "name": "德罗心",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 72,
+            "name": "烟火新禧",
+            "description": "甄选时令丹东草莓结合黑莓，特调香草酱融入蜜柚，口感轻盈低负担",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2025/01/25/Fr6dgDTfB6lNEceUJn9xx7p-44uU.jpg",
+            "price": "139.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 19,
+                "name": "蛇年新禧限定系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 73,
+            "name": "黄金万两",
+            "description": "焦糖饼干的香气浓郁，搭配甜蜜的砂糖橘与清新的橙子融合，口感丰富",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2025/01/24/FsjRzBRXKIRFPn0UQIZVvzkPM6Pl.jpg",
+            "price": "129.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 19,
+                "name": "蛇年新禧限定系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 74,
+            "name": "腰纏万贯",
+            "description": "车厘子汁水充盈，搭配 草莓 树莓 黑莓，多重超级莓果食材，果香四溢",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2025/01/20/FjdVqjHNAGBys4x8eouST4Gx8bT2.png",
+            "price": "169.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 19,
+                "name": "蛇年新禧限定系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 75,
+            "name": "步步高升",
+            "description": "车厘子草莓，搭配进口黑莓果酱，融入芒果酸奶奶油，融合蜜柚，满口清香不腻",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2025/01/20/Fv7ZtZcHIyrl_61JIX5NGSPLC3H6.png",
+            "price": "179.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 19,
+                "name": "蛇年新禧限定系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 76,
+            "name": "晴日骤雪",
+            "description": "清甜的香草奶油搭配香草酱，融合超级食材草莓 芬香柔和 奶香四溢",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2025/01/22/Fpt_bX4iis7gshn4eOVeeAHgovyh.jpg",
+            "price": "139.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 20,
+                "name": "草莓限定系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 77,
+            "name": "落霞瑰丛",
+            "description": "焦糖香气甜蜜浓郁 ，如同玫瑰盛放的热烈 树莓奶油融入焦糖结合草莓酸甜浓郁，爽口不腻",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2025/01/22/FtZ1U-FH9cnJZaCB5tA4IudVpFnt.jpg",
+            "price": "169.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 20,
+                "name": "草莓限定系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 78,
+            "name": "粉海柠香",
+            "description": "香水柠檬结合草莓口味，清爽低负，柠檬的清新把草莓的清香, 衬托的更加泠冽，像是冬天的雪地里闻到了清新的柠檬香气",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2025/01/22/FvXyLspuI6vAM1DCsmy_m21Oti6f.jpg",
+            "price": "158.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 20,
+                "name": "草莓限定系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 79,
+            "name": "夜海赫兹",
+            "description": "特调天然藻蓝蛋白粉奶油，搭配颗颗爆汁的怡颗莓蓝莓、底层加入手工榛子巧克力脆，口感脆糯交织、鲜甜轻盈丰富。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2025/01/22/Fok_4aJ0y2mzFgyfAAJ2t1gFaEvL.jpg",
+            "price": "139.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 21,
+                "name": "招牌酸奶轻糖系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 80,
+            "name": "月隐繁星",
+            "description": "香橙蜜柚蛋糕  特调藻蓝蛋白粉酸奶奶油， 搭配橙子 柚子 芒果， 满口充盈柑橘香，清爽香甜 ",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2025/01/22/FjvjHj3Exw3hpmH9_muB4ryE__mJ.jpg",
+            "price": "158.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 21,
+                "name": "招牌酸奶轻糖系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 81,
+            "name": "蓝莓黑莓花青素酸奶蛋糕",
+            "description": "内夹多层新鲜怡颗莓蓝莓、一口爆浆的现熬蓝莓果酱，配合特调藻蓝蛋白酸奶奶油，酸甜清爽无负担。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/05/FhEBHV8sUawTEkrU6ogaSKBX1jq0.jpg",
+            "price": "169.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 21,
+                "name": "招牌酸奶轻糖系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 82,
+            "name": "喧嚣之白",
+            "description": "新鲜芒果果肉配合汁水充盈的新鲜3J车厘子，入口浓郁鲜甜，每一口都清甜有层次。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/09/02/FsKqkysg4tBu5KnDt0PYruUcLGIY.jpg",
+            "price": "139.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 21,
+                "name": "招牌酸奶轻糖系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 83,
+            "name": "心电桃坞",
+            "description": "时令甜润蜜桃，沁入草本清香紫苏，搭配手工现熬桃子果酱，可口甜蜜。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/09/02/Fh8BjOSLIJV3YlJiZlZcQRPixQk_.jpg",
+            "price": "139.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 21,
+                "name": "招牌酸奶轻糖系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 84,
+            "name": "欢聚之间",
+            "description": "多重莓果混合的盛宴，自研酸奶奶油，搭配树存果酱，融入绿宝格开心果脆丰富口感",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/30/Fn0bDgBjT8mZxTsjUSlFeD4AkUMl.jpg",
+            "price": "198.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 22,
+                "name": "双层Table Cake 酸奶蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 85,
+            "name": "相拥之时",
+            "description": "自研酸奶奶油轻糖不腻，融入多重莓果酸甜皆宜，清爽低负",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/30/Fn30kHonbni28O6CzDxTILmQnxMH.jpg",
+            "price": "158.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 22,
+                "name": "双层Table Cake 酸奶蛋糕",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 86,
+            "name": "柠檬树下",
+            "description": "香水柠檬晴王，清新的香水柠檬果酱，搭配轻甜的晴王， 清爽鲜甜，满口晴王鲜果爆棚",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2025/01/22/FuqcXDSNnuxuw3EjDskWLPHxsmPh.jpg",
+            "price": "139.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 23,
+                "name": "创意轻糖系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 87,
+            "name": "树莓芭乐酸奶蛋糕",
+            "description": "树莓搭配软糯红芯芭乐，配合特调酸奶树莓奶油，加入青提，焦糖饼干，鲜甜焦香。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2025/01/22/FhHiA8-n4bppd4I4omJGLzMdj1hQ.jpg",
+            "price": "169.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 23,
+                "name": "创意轻糖系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 88,
+            "name": "林间密语",
+            "description": "手工现磨绿宝格开心果奶油，伴随树莓夹层，酸甜皆宜不腻，开心果纯正，口感丰富浓郁。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2025/01/22/Fhs4B2VGw8kpuLxf1-oXCzXHQdXB.jpg",
+            "price": "158.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 23,
+                "name": "创意轻糖系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 89,
+            "name": "花环禧宴",
+            "description": "焦糖融合巧克力，伴随草莓和晴王的清甜，层次丰富，浓郁清甜",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2025/01/22/Fqtlh6hIYnjo2tXDhO1KDZ_y1bTC.jpg",
+            "price": "139.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 23,
+                "name": "创意轻糖系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 90,
+            "name": "绯莓霓虹",
+            "description": "绿宝格开心果酱，搭配手工现熬树莓果酱，丝滑香甜。内夹美国开心果碎与怡颗莓浆果，水果香与坚果香气相得益彰。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/01/FlhDXfkMQPLh-1iY5LQaWygVLneP.jpg",
+            "price": "158.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 23,
+                "name": "创意轻糖系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 91,
+            "name": "彼时暮色",
+            "description": "提拉米苏亦甜亦苦。浓郁的马斯卡邦尼芝士、搭配微苦可可与浸满咖啡液的手指饼干，口感醇香丝滑。细腻的奶油融合三种浆果，甜软轻盈，与苦调相得益彰。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/01/Fu23GbPG4FT9smBc1nKqi9wdK1Mr.jpg",
+            "price": "158.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 24,
+                "name": "经典口味轻糖系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 92,
+            "name": "日出游乐园",
+            "description": "杨枝甘露，手工现熬芒果酱融合橙子柚子，香甜浓郁，果香四溢",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2025/01/22/Fi7oOQgrLBH0SXQBGBK73rmYpVFP.jpg",
+            "price": "139.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 24,
+                "name": "经典口味轻糖系列",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 93,
+            "name": "生日礼包",
+            "description": null,
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/12/05/FhLHtkE2-fPOq6OCo4WQz3w00q1Q.jpg",
+            "price": "9.90",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 25,
+                "name": "生日礼包",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 94,
+            "name": "不锈钢叉+一次性盘",
+            "description": null,
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2025/01/20/Fu4xWBjsf0xf8G4KR28GqVKBt437.jpg",
+            "price": "5.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 25,
+                "name": "生日礼包",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 95,
+            "name": "手工现熬",
+            "description": "手工现熬果酱，鲜榨原汁，进口果茸。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/09/19/FsU_-vfbhbMjaGZOk5WYMoNs6Ql2.jpg",
+            "price": "0.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 26,
+                "name": "品牌承诺",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.318Z",
+                "updatedAt": "2025-01-27T06:21:26.318Z"
+            }
+        },
+        {
+            "id": 96,
+            "name": "纯动物奶油",
+            "description": "优选多国进口纯优质动物奶油，健康&风味兼具。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/09/19/Fq3rmV8R9ajz92QGkXad-YtVqgxP.jpg",
+            "price": "0.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.318Z",
+            "updatedAt": "2025-01-27T06:21:26.318Z",
+            "category": {
+                "id": 26,
+                "name": "品牌承诺",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.319Z",
+                "updatedAt": "2025-01-27T06:21:26.319Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.319Z",
+                "updatedAt": "2025-01-27T06:21:26.319Z"
+            }
+        },
+        {
+            "id": 97,
+            "name": "时令鲜果",
+            "description": "甄选优质产地的时令水果，每口新鲜遵循自然馈赠。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/09/19/FvKrA1Svw8BBL5YmCd4wicCTn44B.jpg",
+            "price": "0.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.319Z",
+            "updatedAt": "2025-01-27T06:21:26.319Z",
+            "category": {
+                "id": 26,
+                "name": "品牌承诺",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.319Z",
+                "updatedAt": "2025-01-27T06:21:26.319Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.319Z",
+                "updatedAt": "2025-01-27T06:21:26.319Z"
+            }
+        },
+        {
+            "id": 98,
+            "name": "当日现做",
+            "description": "现售现制，蛋糕不隔夜",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/09/19/Flz9Zr0kd9EBvR_-vhsQnlllqjpB.jpg",
+            "price": "0.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.319Z",
+            "updatedAt": "2025-01-27T06:21:26.319Z",
+            "category": {
+                "id": 27,
+                "name": "温馨提示",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.319Z",
+                "updatedAt": "2025-01-27T06:21:26.319Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.319Z",
+                "updatedAt": "2025-01-27T06:21:26.319Z"
+            }
+        },
+        {
+            "id": 99,
+            "name": "过敏原提示",
+            "description": "部分原料可能含常见过敏原，如：蛋奶，小麦，坚果等。如有过敏史，请谨慎选购。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/09/19/FgNiaUKAqr3xNn-DyemNaYox-O91.jpg",
+            "price": "0.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.319Z",
+            "updatedAt": "2025-01-27T06:21:26.319Z",
+            "category": {
+                "id": 27,
+                "name": "温馨提示",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.319Z",
+                "updatedAt": "2025-01-27T06:21:26.319Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.319Z",
+                "updatedAt": "2025-01-27T06:21:26.319Z"
+            }
+        },
+        {
+            "id": 100,
+            "name": "联系我们",
+            "description": "如有任何问题，可进入小程序，右下角点击客服按钮留言咨询。或拨打门店客服电话详询。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/09/19/FmQaPbpSmoxxax0mXltAqx7mM8F4.jpg",
+            "price": "0.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.319Z",
+            "updatedAt": "2025-01-27T06:21:26.319Z",
+            "category": {
+                "id": 27,
+                "name": "温馨提示",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.319Z",
+                "updatedAt": "2025-01-27T06:21:26.319Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.319Z",
+                "updatedAt": "2025-01-27T06:21:26.319Z"
+            }
+        },
+        {
+            "id": 101,
+            "name": "无忧配送",
+            "description": "高效自配送团队，保证蛋糕无忧到家。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/09/19/FiX9pwGI5A1Sx_JQTlUExsOuOT5B.jpg",
+            "price": "0.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.319Z",
+            "updatedAt": "2025-01-27T06:21:26.319Z",
+            "category": {
+                "id": 27,
+                "name": "温馨提示",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.319Z",
+                "updatedAt": "2025-01-27T06:21:26.319Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.319Z",
+                "updatedAt": "2025-01-27T06:21:26.319Z"
+            }
+        },
+        {
+            "id": 102,
+            "name": "装饰慎食",
+            "description": "蛋糕上的花草及logo插排均已经过消毒处理，但不可食用。儿童需在家长陪护下食用。",
+            "imageUrl": "https://img01.yzcdn.cn/upload_files/2024/09/19/FgPn6mNjbHJbUrEcgqh0DG7O8xk3.jpg",
+            "price": "0.00",
+            "url": "",
+            "json": null,
+            "createdAt": "2025-01-27T06:21:26.319Z",
+            "updatedAt": "2025-01-27T06:21:26.319Z",
+            "category": {
+                "id": 27,
+                "name": "温馨提示",
+                "imageUrl": "",
+                "url": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.319Z",
+                "updatedAt": "2025-01-27T06:21:26.319Z"
+            },
+            "brand": {
+                "id": 3,
+                "name": "HERERS赫芮斯轻糖蛋糕",
+                "appId": "",
+                "kdtId": "",
+                "alias": "",
+                "json": null,
+                "createdAt": "2025-01-27T06:21:26.319Z",
+                "updatedAt": "2025-01-27T06:21:26.319Z"
+            }
+        }
+    ],
+    "total": 102,
+    "page": 1,
+    "limit": 1000
+}

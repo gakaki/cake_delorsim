@@ -2,6 +2,9 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Good } from '../entities/good.entity';
+import {compareBrandSimilarity} from "@/similarity/goodSimilar";
+import { instanceToPlain } from 'class-transformer';
+import {parse, stringify, toJSON, fromJSON} from 'flatted';
 
 @Injectable()
 export class GoodService {
@@ -29,13 +32,16 @@ export class GoodService {
       .take(limit)
       .skip((page - 1) * limit);
 
-    const [goods, total] = await queryBuilder.getManyAndCount();
-
+    let [goods, total] = await queryBuilder.getManyAndCount()
+    goods = compareBrandSimilarity(goods)
+    console.log("get goods finish jend")
+   
     return {
-      data: goods,
+      data:  goods,
       total,
       page,
       limit,
     };
   }
+
 }
