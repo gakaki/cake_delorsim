@@ -13,7 +13,7 @@ export class GoodService {
     private goodRepository: Repository<Good>,
   ) {}
 
-  async findAll(page = 1, limit = 1000) {
+  async findAll(page = 1, limit = 1000,brands:string[] = ["德罗心","WentingG"]) {
     const queryBuilder = this.goodRepository
       .createQueryBuilder('good')
       .leftJoinAndSelect('good.category', 'category')
@@ -35,8 +35,9 @@ export class GoodService {
       .skip((page - 1) * limit);
 
     let [goods, total] = await queryBuilder.getManyAndCount()
-
-    goods = goods.filter( g => g.brand?.name.includes("德罗心") || g.brand?.name.includes("WentingG"))
+    // console.log(brands)
+    goods = goods.filter( good => !good.name.includes('盘') && !good.name.includes('生日') )
+    goods = goods.filter( g => g.brand?.name.includes(brands[0]) || g.brand?.name.includes(brands[1]))
     goods = compareBrandSimilarity(goods)
     // goods = goods.slice(0,1) //暂时只要和wenting比
     return {

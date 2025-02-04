@@ -21,9 +21,9 @@ export class GoodsController {
   async findAll(
     @Query('page') page = 1,
     @Query('limit') limit = 1000,
+    @Query('brands') brands?: string[],
   ) {
-    console.log(`page: ${page} limit: ${limit}`)
-    return this.goodService.findAll(page, limit);
+    console.log(`page: ${page} limit: ${limit} brands: ${brands ? brands.join(', ') : 'none'}`)
+    return this.goodService.findAll(page, limit, brands);
   }
 }
-

@@ -31,6 +31,9 @@ export const prepareGoodsToGroupGoods = (data: Good[] = []) => {
 export  const compareBrandSimilarity = (data: Good[]): Good[][] => {
     const goodsByBrand = prepareGoodsToGroupGoods(data)
     for (let i = 0; i < goodsByBrand.length; i++) {
+        if ( i > 0) {
+            console.log("其实比较结果只要第一组商品即可 break",i)
+        }
         const currentBrandGoods = goodsByBrand[i];
         for (const currentGood of currentBrandGoods) {
             currentGood.similarGoods = []
@@ -52,7 +55,8 @@ export  const compareBrandSimilarity = (data: Good[]): Good[][] => {
             currentGood.similarGoods = currentGood.similarGoods.slice(0, 5);
         }
     }
-    return goodsByBrand
+    //其实比较结果只要第一组商品即可
+    return goodsByBrand.slice(0,1)
 }
 
 // 查找相似商品的辅助方法
