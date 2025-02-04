@@ -18,7 +18,7 @@ async function fetchGroupGoods(brands: string[]): Promise<Good[][]> {
     
     const response = await fetch(fullUrl, { 
       next: { 
-        revalidate: 3600 // Regenerate page every hour
+        revalidate: 60 // Regenerate page every hour
       }
     });
     const data: GoodsResponse = await response.json()
