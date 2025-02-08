@@ -35,11 +35,11 @@ export class GoodService {
       .skip((page - 1) * limit);
 
     let [goods, total] = await queryBuilder.getManyAndCount()
-    // console.log(brands)
-    goods = goods.filter( good => !good.name.includes('盘') && !good.name.includes('生日') )
+    console.log(goods.length,brands.length)
+    goods = goods.filter( good => !good.name.includes('盘') )
     goods = goods.filter( g => g.brand?.name.includes(brands[0]) || g.brand?.name.includes(brands[1]))
+    console.log(goods.length)
     goods = compareBrandSimilarity(goods)
-    // goods = goods.slice(0,1) //暂时只要和wenting比
     return {
       data:  goods,
       total,
