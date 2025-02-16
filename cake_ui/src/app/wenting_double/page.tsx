@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { Suspense } from 'react';
 import { GoodsDoubleResponse } from '../model/Good';
+import { getApiUrl } from '../utils/api';
 
 export const metadata: Metadata = {
   title: '文汀 vs 德罗心',
@@ -37,11 +38,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => (
 
 async function fetchDobuleBrandsGoods(): Promise<GoodsDoubleResponse> {
   try {
-    const nodeEnv = process.env.NODE_ENV as string;
-    const url =
-      nodeEnv === 'production'
-        ? 'https://delorsim-server.koyeb.app/goods/wenting_delosim'
-        : 'http://localhost:15001/goods/wenting_delosim';
+      const url = getApiUrl('/wenting_delosim');
     const response = await fetch(url, {
       next: {
         revalidate: 60 // 每小时重新生成页面
