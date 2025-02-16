@@ -1,6 +1,6 @@
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 import { Suspense } from 'react';
-import { GoodsDoubleResponse } from '../model/Good';
+import type { Good, GoodsDoubleResponse } from '../model/Good';
 import { getApiUrl } from '../utils/api';
 
 export const metadata: Metadata = {
@@ -8,30 +8,18 @@ export const metadata: Metadata = {
   description: '文汀蛋糕对比德罗心-双排独臂'
 };
 
-interface Product {
-  imageUrl: string;
-  name: string;
-  category: { name: string };
-  description: string;
-  price: number;
-}
-
-interface ProductCardProps {
-  product: Product;
-}
-
-const ProductCard: React.FC<ProductCardProps> = ({ product }) => (
+const GoodCard: React.FC<{ good: Good }> = ({ good }) => (
   <div className="border rounded shadow p-4 flex flex-col">
     <img
-      src={product.imageUrl}
-      alt={product.name}
+      src={good.imageUrl}
+      alt={good.name}
       className="w-full h-40 object-cover"
     />
     <div className="mt-2">
-      <h2 className="text-xl font-bold">{product.name}</h2>
-      <p className="text-sm text-gray-600">{product.category.name}</p>
-      <p className="mt-1">{product.description}</p>
-      <p className="mt-2 text-lg font-semibold text-green-600">¥{product.price}</p>
+      <h2 className="text-xl font-bold">{good.name}</h2>
+      <p className="text-sm text-gray-600">{good.category.name}</p>
+      <p className="mt-1">{good.description}</p>
+      <p className="mt-2 text-lg font-semibold text-green-600">¥{good.price}</p>
     </div>
   </div>
 );
@@ -54,8 +42,8 @@ async function fetchDobuleBrandsGoods(): Promise<GoodsDoubleResponse> {
 
 const GoodsDoubleList: React.FC = async () => {
   const result = await fetchDobuleBrandsGoods();
-  const wenting: Product[] = result.data.wenting;
-  const delosim: Product[] = result.data.delosim;
+  const wenting: Good[] = result.data.wenting;
+  const delosim: Good[] = result.data.delosim;
   const maxLength = Math.max(wenting.length, delosim.length);
 
   return (
@@ -67,10 +55,10 @@ const GoodsDoubleList: React.FC = async () => {
         {Array.from({ length: maxLength }).map((_, index) => (
           <div key={index} className="grid grid-cols-2 gap-4">
             <div>
-              {wenting[index] && <ProductCard product={wenting[index]} />}
+              {wenting[index] && <GoodCard good={wenting[index]} />}
             </div>
             <div>
-              {delosim[index] && <ProductCard product={delosim[index]} />}
+              {delosim[index] && <GoodCard good={delosim[index]} />}
             </div>
           </div>
         ))}

@@ -1131,6 +1131,9 @@
         ]
     }
 }       
+https://www.google.com/search?q=milvus+%E5%81%9A%E5%9B%BE%E7%89%87%E7%9B%B8%E4%BC%BC%E5%BA%A6%E6%AF%94%E8%BE%83&oq=milvus+%E5%81%9A%E5%9B%BE%E7%89%87%E7%9B%B8%E4%BC%BC%E5%BA%A6%E6%AF%94%E8%BE%83&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigAdIBCDg1ODdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+接下来可以做相似度比较了用mivlus 的图片相似度 用大模型判断
+用json 判断似乎不太准 
 
 有以上json,
 针对wenting下的商品,找到对应的德罗心delosim节点下的商品(每个wenting商品寻找3个类似的德罗心商品,按照相似度排序),然后找到的商品加到
