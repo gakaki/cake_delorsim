@@ -77,6 +77,7 @@ export class GoodService {
     console.log(goods.length);
     goods = goods.filter(good => !good.name.includes('盘'));
     // goods = goods.filter(good => good.brand?.name.includes('德罗心') || good.brand.name.includes('文汀'));
+    goods = goods.filter( g => g.price > 4)
 
     // 将原始数据组装成你需要的结构
     goods = goods.map(raw => ({

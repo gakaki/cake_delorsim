@@ -10,6 +10,12 @@ export default function Home() {
             <h2 className="text-xl font-bold mb-4">Wenting 对 德罗心</h2>
             <p className="text-sm text-gray-600">点击查看详细比较</p>
           </Link>
+         
+          <Link href="/wenting_double" className="w-64 h-64 bg-purple-100 hover:bg-purple-200 transition-colors duration-300 rounded-lg shadow-md flex flex-col items-center justify-center p-4 text-center">
+            <p className="text-sm text-gray-600">直接列出</p>
+            <h2 className="text-xl font-bold mb-4">Wenting 对 德罗心 </h2>
+          </Link>
+         
           <Link href="/herers" className="w-64 h-64 bg-green-100 hover:bg-green-200 transition-colors duration-300 rounded-lg shadow-md flex flex-col items-center justify-center p-4 text-center">
             <h2 className="text-xl font-bold mb-4">德罗心 对 赫芮斯</h2>
             <p className="text-sm text-gray-600">点击查看详细比较</p>

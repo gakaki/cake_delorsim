@@ -1137,3 +1137,5 @@
 wenting下的商品的节点的similarGoods数组下,另外把相似的部分highlight标记出来..
 可以从以下角度寻找类似的商品. 如:商品名name,价格price,商品描述,分类category.name
 
+https://kimi.moonshot.cn/chat/cuouu2npfah2nrlc9sog
+kimi的这个回答是真的好

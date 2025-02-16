@@ -48,3 +48,11 @@ export interface SimilarGood {
   similarity_name_number: number
   similarity_description_number: number
 }
+
+export interface GoodsDoubleResponse {
+  data: {
+    wenting: Good[]
+    delosim: Good[]
+  };
+  total: number;
+}
