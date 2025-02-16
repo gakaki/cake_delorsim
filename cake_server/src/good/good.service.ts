@@ -48,4 +48,63 @@ export class GoodService {
     };
   }
 
+  async findWentingDelosim() {
+    const queryBuilder = this.goodRepository
+      .createQueryBuilder('good')
+      .leftJoin('good.category', 'category')
+      .leftJoin('good.brand', 'brand')
+      .select([
+        'good.id',
+        'good.name',
+        'good.price',
+        'good.description',
+        'good.imageUrl'
+      ])
+      .addSelect([
+        'category.id',
+        'category.name'
+      ])
+      .addSelect([
+        'brand.id',
+        'brand.name'
+      ])//这里brandname不能重名的
+      .where('brand.name LIKE :brandName1', { brandName1: '%文汀%' })
+      .orWhere('brand.name LIKE :brandName2', { brandName2: '%德罗心%' });
+      //打印生成的 SQL
+    console.log(queryBuilder.getSql());
+
+    let [goods, total] = await queryBuilder.getManyAndCount();
+    console.log(goods.length);
+    goods = goods.filter(good => !good.name.includes('盘'));
+    // goods = goods.filter(good => good.brand?.name.includes('德罗心') || good.brand.name.includes('文汀'));
+
+    // 将原始数据组装成你需要的结构
+    goods = goods.map(raw => ({
+      id: raw.id,
+      name: raw.name,
+      price: raw.price,
+      description: raw.description,
+      imageUrl: raw.imageUrl,
+      category: {
+        id: raw.category.id,
+        name: raw.category.name,
+      },
+      brand: {
+        id: raw.brand.id,
+        name: raw.brand.name,
+      }
+    }));
+
+    const goods_wenting = goods.filter(good => good.brand?.name.includes('文汀'));
+    const goods_delosim = goods.filter(good => good.brand?.name.includes('德罗心'));
+
+    console.log(goods.length);
+    return {
+      data: {
+        "wenting" : goods_wenting,
+        "delosim" : goods_delosim
+      }
+    };
+  }
+
 }
